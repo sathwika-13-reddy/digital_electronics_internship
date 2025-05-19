@@ -1,12 +1,13 @@
 # DIGITAL ELECTRONICS
 # DIGITAL ELECTRONICS INTERNSHIP
 - [what is digital electronics](#what-is-digital-electronics)
-- [Applications of Digital Electronics](Applications-of-Digital-Electronics)
-- [Digital vs Analog signals](Digital-vs-Analog-signals)
-- [LOGIC LEVELS](LOGIC-LEVELS)
-- [ NUMBER SYSTEM]( NUMBER-SYSTEM)
-- [Conversion between number system](Conversion-between-number-system)
-- [BASIC LOGIC GATES](BASIC-LOGIC-GATES)
+- [Applications of Digital Electronics](#Applications-of-Digital-Electronics)
+- [Digital vs Analog signals](#Digital-vs-Analog-signals)
+- [LOGIC LEVELS](#LOGIC-LEVELS)
+- [NUMBER SYSTEM](#NUMBER-SYSTEM)
+- [Conversion between number system](#Conversion-between-number-system)
+- [BASIC LOGIC GATES](#BASIC-LOGIC-GATES)
+- [ What is an IC](#What-is-an-IC)
 
 # what is digital electronics
 
@@ -502,6 +503,48 @@ The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the 
 **Output = A ⊙ B** (also written as \(\overline{A \oplus B}\))
 
 - The XNOR gate outputs `1` **only when the inputs are the same**.
+
+------
+
+
+# What is an IC
+
+An IC (Integrated Circuit) is a compact, miniaturized electronic circuit built into a small chip of semiconductor material, usually silicon. It can contain millions of transistors, resistors, capacitors, and other components — all embedded together to perform specific functions.
+
+# Types of Logic Gates and Their IC Numbers
+
+Logic gates are the basic building blocks of digital circuits. Each gate performs a specific logic function and is available in the form of an Integrated Circuit (IC).
+
+
+
+# Types of Logic Gates with IC Numbers, Pin Count & Description
+
+| Logic Gate | IC Number | No. of Gates | Total Pins | Description |
+|------------|-----------|--------------|------------|-------------|
+| **AND**    | 7408      | 4 AND gates  | 14 pins    | Quad 2-input AND gate |
+| **OR**     | 7432      | 4 OR gates   | 14 pins    | Quad 2-input OR gate |
+| **NOT**    | 7404      | 6 NOT gates  | 14 pins    | Hex inverter (NOT gates) |
+| **NAND**   | 7400      | 4 NAND gates | 14 pins    | Quad 2-input NAND gate |
+| **NOR**    | 7402      | 4 NOR gates  | 14 pins    | Quad 2-input NOR gate |
+| **XOR**    | 7486      | 4 XOR gates  | 14 pins    | Quad 2-input XOR gate |
+| **XNOR**   | 74266     | 4 XNOR gates | 14 pins    | Quad 2-input XNOR gate with open collector outputs |
+
+
+# General Pin Description for 14-Pin Logic Gate ICs:
+
+| Pin Number | Function               |
+|------------|------------------------|
+| 1–13       | Input/Output for gates |
+| 7          | Ground (GND)           |
+| 14         | Supply Voltage (Vcc)   |
+
+ **Note**: Pin configuration varies slightly between ICs, but **Pin 7 (GND)** and **Pin 14 (Vcc)** are almost always the same in standard 14-pin DIP logic ICs.
+
+---
+
+
+
+
 
 
 
