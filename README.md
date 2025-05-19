@@ -1,5 +1,6 @@
-# DIGITAL ELECTRONICS
-# DIGITAL ELECTRONICS INTERNSHIP
+# 
+# Table of Content
+
 - [what is digital electronics](#what-is-digital-electronics)
 - [Applications of Digital Electronics](#Applications-of-Digital-Electronics)
 - [Digital vs Analog signals](#Digital-vs-Analog-signals)
@@ -82,14 +83,14 @@ Again, the range may differ depending on the logic family.
 ⚙️ Logic Level Standards
 Different digital logic families (like TTL or CMOS) define specific voltage ranges for logic levels:
 
-✅ TTL (Transistor-Transistor Logic) – typically 5V system:
+ TTL (Transistor-Transistor Logic) – typically 5V system:
 Logic 0 (LOW): 0V to 0.8V
 
 Logic 1 (HIGH): 2V to 5V
 
 Undefined Zone: 0.8V to 2V (should be avoided)
 
-✅ CMOS (Complementary Metal-Oxide-Semiconductor) – flexible with V<sub>DD</sub>:
+CMOS (Complementary Metal-Oxide-Semiconductor) – flexible with V<sub>DD</sub>:
 If V<sub>DD</sub> = 5V:
 
 Logic 0: 0V to ~1.5V
@@ -541,6 +542,318 @@ Logic gates are the basic building blocks of digital circuits. Each gate perform
  **Note**: Pin configuration varies slightly between ICs, but **Pin 7 (GND)** and **Pin 14 (Vcc)** are almost always the same in standard 14-pin DIP logic ICs.
 
 ---
+
+
+1.IC 7408 – Quad 2-Input AND Gate
+
+
+![image](https://github.com/user-attachments/assets/ed0ed833-5f75-4234-8cda-cc4699b29a34)
+
+# IC 7408 – Pin Description (14-Pin DIP)
+
+The IC 7408 has **4 independent AND gates**, each with **2 inputs** and **1 output**. Below is the pin-by-pin description:
+
+| Pin No | Pin Name | Description                             |
+|--------|----------|-----------------------------------------|
+| 1      | A1       | Input A of Gate 1                       |
+| 2      | B1       | Input B of Gate 1                       |
+| 3      | Y1       | Output of Gate 1 (A1 · B1)              |
+| 4      | A2       | Input A of Gate 2                       |
+| 5      | B2       | Input B of Gate 2                       |
+| 6      | Y2       | Output of Gate 2 (A2 · B2)              |
+| 7      | GND      | Ground (0V)                             |
+| 8      | Y3       | Output of Gate 3 (A3 · B3)              |
+| 9      | A3       | Input A of Gate 3                       |
+| 10     | B3       | Input B of Gate 3                       |
+| 11     | Y4       | Output of Gate 4 (A4 · B4)              |
+| 12     | A4       | Input A of Gate 4                       |
+| 13     | B4       | Input B of Gate 4                       |
+| 14     | Vcc      | Supply Voltage (+5V for TTL logic)      |
+
+---
+
+# Summary:
+
+- **Pins 1–6** → Gate 1 & Gate 2
+- **Pins 8–13** → Gate 3 & Gate 4
+- **Pin 7** → Ground  
+- **Pin 14** → Power Supply
+
+---
+
+2. IC 7432 – Quad 2-Input OR Gate
+
+
+
+![image](https://github.com/user-attachments/assets/7ef3fdec-fbe4-4d61-ad2e-118e1b3dde40)
+
+
+# IC 7432 – Quad 2-Input OR Gate
+
+The IC **7432** consists of **four independent 2-input OR gates** in a 14-pin Dual In-Line Package (DIP). Each gate performs a logical OR operation.
+
+
+# Logic Expression:
+**Y = A + B**
+
+# 14-Pin Configuration and Description:
+
+| Pin No | Pin Name | Description                             |
+|--------|----------|-----------------------------------------|
+| 1      | A1       | Input A of Gate 1                       |
+| 2      | B1       | Input B of Gate 1                       |
+| 3      | Y1       | Output of Gate 1 (A1 + B1)              |
+| 4      | A2       | Input A of Gate 2                       |
+| 5      | B2       | Input B of Gate 2                       |
+| 6      | Y2       | Output of Gate 2 (A2 + B2)              |
+| 7      | GND      | Ground (0V)                             |
+| 8      | Y3       | Output of Gate 3 (A3 + B3)              |
+| 9      | A3       | Input A of Gate 3                       |
+| 10     | B3       | Input B of Gate 3                       |
+| 11     | Y4       | Output of Gate 4 (A4 + B4)              |
+| 12     | A4       | Input A of Gate 4                       |
+| 13     | B4       | Input B of Gate 4                       |
+| 14     | Vcc      | Supply Voltage (+5V for TTL)            |
+
+
+ Internal Gate Mapping:
+
+| Gate | Inputs | Output | Pins Used           |
+|------|--------|--------|---------------------|
+| 1    | A1, B1 | Y1     | Pins 1, 2, 3        |
+| 2    | A2, B2 | Y2     | Pins 4, 5, 6        |
+| 3    | A3, B3 | Y3     | Pins 9, 10, 8       |
+| 4    | A4, B4 | Y4     | Pins 12, 13, 11     |
+
+ Power Supply:
+- **Pin 14** → Vcc (+5V)
+- **Pin 7**  → GND
+--------------
+
+3. IC 7404 – Hex Inverter (NOT Gate)
+
+![image](https://github.com/user-attachments/assets/e84ef774-e2cc-4efa-a19a-45cfacb87de5)
+
+
+# IC 7404 – Hex Inverter (NOT Gate)
+
+The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverter accepts a logic-level input and outputs the opposite logic level. Packaged in a **14-pin DIP**.
+
+
+- **Logic Expression:** `Y = ¬A` or `Y = A̅`
+
+
+# IC 7404 – 14-Pin Configuration and Description:
+
+| Pin No | Pin Name | Description                          |
+|--------|----------|--------------------------------------|
+| 1      | A1       | Input of Inverter 1                  |
+| 2      | Y1       | Output of Inverter 1 (A1̅)           |
+| 3      | A2       | Input of Inverter 2                  |
+| 4      | Y2       | Output of Inverter 2 (A2̅)           |
+| 5      | A3       | Input of Inverter 3                  |
+| 6      | Y3       | Output of Inverter 3 (A3̅)           |
+| 7      | GND      | Ground (0V)                          |
+| 8      | Y4       | Output of Inverter 4 (A4̅)           |
+| 9      | A4       | Input of Inverter 4                  |
+| 10     | Y5       | Output of Inverter 5 (A5̅)           |
+| 11     | A5       | Input of Inverter 5                  |
+| 12     | Y6       | Output of Inverter 6 (A6̅)           |
+| 13     | A6       | Input of Inverter 6                  |
+| 14     | Vcc      | Power Supply (+5V for TTL logic)    |
+
+
+# Inverter Mapping:
+
+| Inverter | Input | Output | Pins Used     |
+|----------|--------|--------|---------------|
+| 1        | A1     | Y1     | 1 → 2         |
+| 2        | A2     | Y2     | 3 → 4         |
+| 3        | A3     | Y3     | 5 → 6         |
+| 4        | A4     | Y4     | 9 → 8         |
+| 5        | A5     | Y5     | 11 → 10       |
+| 6        | A6     | Y6     | 13 → 12       |
+
+# Power Supply:
+- **Pin 14** → Vcc (+5V)
+- **Pin 7**  → GND (0V)
+
+# Applications:
+- Signal inversion
+- Buffering and level shifting
+- Oscillators and waveform generators
+
+- ----------
+
+
+4. IC 7400 – Quad 2-Input NAND Gate
+
+![image](https://github.com/user-attachments/assets/647c6d40-c4ea-4672-99ba-66ef014f2e96)
+
+
+> Each gate performs the logic NAND operation:  
+> **Y = ¬(A · B)**
+
+# 14-Pin Configuration and Description:
+
+| Pin No | Pin Name | Description                          |
+|--------|----------|--------------------------------------|
+| 1      | A1       | Input A of Gate 1                    |
+| 2      | B1       | Input B of Gate 1                    |
+| 3      | Y1       | Output of Gate 1 (A1 NAND B1)        |
+| 4      | A2       | Input A of Gate 2                    |
+| 5      | B2       | Input B of Gate 2                    |
+| 6      | Y2       | Output of Gate 2 (A2 NAND B2)        |
+| 7      | GND      | Ground (0V)                          |
+| 8      | Y3       | Output of Gate 3 (A3 NAND B3)        |
+| 9      | B3       | Input B of Gate 3                    |
+| 10     | A3       | Input A of Gate 3                    |
+| 11     | Y4       | Output of Gate 4 (A4 NAND B4)        |
+| 12     | B4       | Input B of Gate 4                    |
+| 13     | A4       | Input A of Gate 4                    |
+| 14     | Vcc      | Power Supply (+5V for TTL)           |
+
+
+# Power Pins:
+- **Pin 14** – Vcc (+5V)
+- **Pin 7**  – GND (0V)
+
+Here is the IC 7400 description in 4 bullet points:
+
+IC 7400 consists of four independent 2-input NAND gates in a 14-pin DIP package.
+
+Each gate performs the logic operation: Y = ¬(A · B) (NAND function).
+
+Operates on +5V DC supply with pin 14 as Vcc and pin 7 as GND.
+
+Widely used in digital logic circuits, such as timers, latches, and control systems.
+
+
+# Applications:
+- Digital logic circuits
+- Signal blocking
+- Flip-flop construction
+
+------
+
+
+5.IC 7402 – Quad 2-Input NOR Gate
+
+
+![image](https://github.com/user-attachments/assets/dc9d0145-3454-4e7e-8aaf-b86ddae5c897)
+
+# IC 7402 – Quad 2-Input NOR Gate
+
+The **IC 7402** contains **four independent 2-input NOR gates**. Each gate performs the logical NOR operation:  
+**Y = ¬(A + B)**
+
+# 14-Pin Configuration and Description:
+
+| Pin No | Pin Name | Description                          |
+|--------|----------|--------------------------------------|
+| 1      | A1       | Input A of Gate 1                    |
+| 2      | B1       | Input B of Gate 1                    |
+| 3      | Y1       | Output of Gate 1 (A1 NOR B1)         |
+| 4      | A2       | Input A of Gate 2                    |
+| 5      | B2       | Input B of Gate 2                    |
+| 6      | Y2       | Output of Gate 2 (A2 NOR B2)         |
+| 7      | GND      | Ground (0V)                          |
+| 8      | Y3       | Output of Gate 3 (A3 NOR B3)         |
+| 9      | B3       | Input B of Gate 3                    |
+| 10     | A3       | Input A of Gate 3                    |
+| 11     | Y4       | Output of Gate 4 (A4 NOR B4)         |
+| 12     | B4       | Input B of Gate 4                    |
+| 13     | A4       | Input A of Gate 4                    |
+| 14     | Vcc      | Power Supply (+5V for TTL)           |
+
+Contains four independent 2-input NOR gates in a single 14-pin package.
+
+Each gate performs the logical NOR operation, outputting HIGH only when both inputs are LOW.
+
+Widely used in digital logic circuits for implementing NOR logic functions.
+
+Operates typically at 5V supply voltage with standardized TTL logic levels.
+
+
+---------
+6.IC 7486 – Quad 2-Input XOR Gate
+
+# IC 7486 – Quad 2-Input XOR Gate
+
+
+# 14-Pin Pinout Description (Applicable to both IC 7402 & IC 7486)
+
+| Pin Number | Pin Name | Description                  |
+|------------|-----------|-----------------------------|
+| 1          | 1A        | Input 1 of Gate 1           |
+| 2          | 1B        | Input 2 of Gate 1           |
+| 3          | 1Y        | Output of Gate 1            |
+| 4          | 2A        | Input 1 of Gate 2           |
+| 5          | 2B        | Input 2 of Gate 2           |
+| 6          | 2Y        | Output of Gate 2            |
+| 7          | GND       | Ground (0V)                 |
+| 8          | 3Y        | Output of Gate 3            |
+| 9          | 3A        | Input 1 of Gate 3           |
+| 10         | 3B        | Input 2 of Gate 3           |
+| 11         | 4Y        | Output of Gate 4            |
+| 12         | 4A        | Input 1 of Gate 4           |
+| 13         | 4B        | Input 2 of Gate 4           |
+| 14         | Vcc       | Positive Power Supply (+5V) |
+
+
+
+
+Contains four independent 2-input XOR gates in a single 14-pin package.
+
+Each gate outputs HIGH only when the number of HIGH inputs is odd (i.e., inputs are different).
+
+Commonly used for parity checking, arithmetic circuits, and digital comparison.
+
+Operates typically at 5V supply voltage with TTL-compatible logic levels.
+
+-------------
+
+7. IC 74266 – Quad 2-Input XNOR Gate
+
+![image](https://github.com/user-attachments/assets/215b2a6c-f8fa-491d-9f5b-91f3a5258f59)
+
+
+
+# 14-Pin Pinout Description
+
+| Pin Number | Pin Name | Description                  |
+|------------|-----------|-----------------------------|
+| 1          | 1A        | Input 1 of Gate 1           |
+| 2          | 1B        | Input 2 of Gate 1           |
+| 3          | 1Y        | Output of Gate 1            |
+| 4          | 2A        | Input 1 of Gate 2           |
+| 5          | 2B        | Input 2 of Gate 2           |
+| 6          | 2Y        | Output of Gate 2            |
+| 7          | GND       | Ground (0V)                 |
+| 8          | 3Y        | Output of Gate 3            |
+| 9          | 3A        | Input 1 of Gate 3           |
+| 10         | 3B        | Input 2 of Gate 3           |
+| 11         | 4Y        | Output of Gate 4            |
+| 12         | 4A        | Input 1 of Gate 4           |
+| 13         | 4B        | Input 2 of Gate 4           |
+| 14         | Vcc       | Positive Power Supply (+5V) |
+
+
+- Contains four independent 2-input XNOR gates in a 14-pin DIP package.
+- Each gate outputs HIGH when both inputs are the same (both HIGH or both LOW).
+- Used in equality detection, digital comparators, and parity circuits.
+- Operates at 5V supply voltage with TTL-compatible logic levels.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
