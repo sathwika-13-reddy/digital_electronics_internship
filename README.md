@@ -58,46 +58,49 @@ In digital electronics, logic levels refer to the specific voltage ranges that r
 
 
 LOGIC LEVELS
-In digital electronics, a logic level is a specific voltage or range of voltages used to represent binary states:
 
 Logic 0 (LOW)
 
 Logic 1 (HIGH)
 
-Digital circuits operate using only these two levels to interpret data, control operations, and perform computations.
+- Digital circuits operate using only these two levels to interpret data, control operations, and perform computations.
 
 1. Logic LOW (0)
-Logic 0, also called LOW, represents the binary value 0.
 
-It typically corresponds to a voltage close to 0 volts.
+- Logic 0, also called LOW, represents the binary value 0.
 
-The exact voltage range depends on the technology used (e.g., TTL, CMOS).
+
 
 2. Logic HIGH (1)
-Logic 1, also called HIGH, represents the binary value 1.
 
-It corresponds to a voltage close to the supply voltage, commonly 3.3V or 5V.
+- Logic 1, also called HIGH, represents the binary value 1.
 
-Again, the range may differ depending on the logic family.
 
-⚙️ Logic Level Standards
-Different digital logic families (like TTL or CMOS) define specific voltage ranges for logic levels:
 
- TTL (Transistor-Transistor Logic) – typically 5V system:
+
+# TTL (Transistor-Transistor Logic) – typically 5V system:
+
 Logic 0 (LOW): 0V to 0.8V
 
 Logic 1 (HIGH): 2V to 5V
 
 Undefined Zone: 0.8V to 2V (should be avoided)
 
-CMOS (Complementary Metal-Oxide-Semiconductor) – flexible with V<sub>DD</sub>:
+
+# CMOS (Complementary Metal-Oxide-Semiconductor) – flexible with V<sub>DD</sub>:
+
+
 If V<sub>DD</sub> = 5V:
+
 
 Logic 0: 0V to ~1.5V
 
+
 Logic 1: ~3.5V to 5V
 
+
 CMOS systems have higher noise immunity and can operate at lower voltages (e.g., 3.3V, 1.8V).
+
 
  # NUMBER SYSTEM
 
@@ -115,7 +118,7 @@ CMOS systems have higher noise immunity and can operate at lower voltages (e.g.,
 
 # Conversion between number system
 
-1. Binary → Decimal
+# 1.Binary → Decimal
 Binary: 1011₂
 
 = (1×2³) + (0×2²) + (1×2¹) + (1×2⁰)
@@ -126,7 +129,7 @@ Binary: 1011₂
 
 -------------
 
-2. Decimal → Binary
+# 2.Decimal → Binary
 
  Decimal `13` to Binary
 
@@ -143,7 +146,7 @@ Decimal 13 = Binary 1101
 
 ---------------
 
-3. Binary → Octal
+# 3.Binary → Octal
 Binary: 110110₂
 
 Group in 3 bits → 110 | 110
@@ -155,7 +158,7 @@ Group in 3 bits → 110 | 110
 Result → 66₈
 
 -----------
-4. Octal → Binary
+# 4.Octal → Binary
 
  Octal: 725 to Binary
 
@@ -170,7 +173,7 @@ Octal 725 = Binary 111010101
 
 ----------------
 
-5. Binary → Hexadecimal
+# 5.Binary → Hexadecimal
 Convert Binary: 10111110 to Hexadecimal
 
 | Binary Group | Decimal Equivalent | Hexadecimal Digit |
@@ -184,7 +187,7 @@ Binary 10111110 = Hexadecimal **BE**
 ---
  
 
-6. Hexadecimal → Binary
+# 6.Hexadecimal → Binary
 Hexadecimal `3F9` to Binary
 
 | Hex Digit | Binary (4 bits) |
@@ -200,7 +203,7 @@ Hexadecimal 3F9 = Binary 001111111001
 ----------------
 
 
-7. Decimal → Octal
+# 7.Decimal → Octal
  Convert Decimal `156` to Octal
 
 | Step | Division        | Quotient | Remainder |
@@ -217,7 +220,7 @@ Decimal 156 = Octal 234
 ------------------
 
 
-8. Octal → Decimal
+# 8.Octal → Decimal
 Octal: 745₈
 
 = (7×8²) + (4×8¹) + (5×8⁰)
@@ -230,7 +233,7 @@ Octal: 745₈
 
 ----------------
 
-9. Decimal → Hexadecimal
+# 9.Decimal → Hexadecimal
    
 Decimal: 254₁₀
 
@@ -242,7 +245,7 @@ Read remainders bottom to top → FE₁₆
 
 -------------------
 
-10. Hexadecimal → Decimal
+# 10.Hexadecimal → Decimal
 Hex: 2A₁₆
 
 = (2×16¹) + (A×16⁰)
@@ -255,7 +258,7 @@ Hex: 2A₁₆
 
 -------------------
 
-11. Octal → Hexadecimal
+# 11.Octal → Hexadecimal
 Octal: 745₈
 
 Step 1: Octal → Binary
@@ -282,7 +285,7 @@ Result → 3C5₁₆
 
 --------------------
 
-12. Hexadecimal → Octal
+# 12.Hexadecimal → Octal
 Hex: 2F₁₆
 
 Step 1: Hex → Binary
@@ -307,7 +310,7 @@ Result → 057₈
 -------------------
 # BASIC LOGIC GATES
 
-1.AND GATE
+# 1.AND GATE
 
 # Symbol:
 
@@ -322,7 +325,7 @@ The AND gate outputs 1 (true) only when both inputs are 1. Otherwise, it outputs
  
  *The value of X will be True when both the inputs will be True.
  
-# Truth Table 
+# Truth Table:
 
 
 | Input A | Input B | Output (A · B) |
@@ -332,14 +335,17 @@ The AND gate outputs 1 (true) only when both inputs are 1. Otherwise, it outputs
 |    1    |    0    |       0        |
 |    1    |    1    |       1        |
 
-### Logic Expression:
+# Logic Expression:
 Output = A · B
 
 - The AND gate outputs `1` only when **both inputs are 1**.
 
-2.  OR GATE
+- ---------
 
-# SYMBOL
+
+# 2.OR GATE
+
+# SYMBOL:
 
 
 ![image](https://github.com/user-attachments/assets/fd0fd89d-c013-41de-9802-c5674e83aee4)
@@ -351,7 +357,7 @@ The OR gate outputs 1 (true) if at least one input is 1.
 
  *It outputs 0 only when both inputs are 0.
 
- # Truth Table
+ # Truth Table:
 
 | Input A | Input B | Output (A + B) |
 |---------|---------|----------------|
@@ -360,14 +366,15 @@ The OR gate outputs 1 (true) if at least one input is 1.
 |    1    |    0    |       1        |
 |    1    |    1    |       1        |
 
-### Logic Expression:
-**Output = A + B**
+# Logic Expression:
+Output = A + B
 
 - The OR gate outputs `1` if **at least one input is 1**.
 
+--------------------------
 
+# 3.NOT GATE
 
-3. NOT GATE
 # Symbol:
 
 ![image](https://github.com/user-attachments/assets/11c5c4c7-a58d-4198-9339-0568330a39d7)
@@ -375,41 +382,44 @@ The OR gate outputs 1 (true) if at least one input is 1.
 
 The NOT gate symbol represents a digital logic inverter, and it is visually distinct from other logic gates. It typically consists of:
 
- *A triangle pointing to the right
+ - A triangle pointing to the right
 
- *A small circle (called a "bubble") at the output, which indicates inversion
+ - A small circle (called a "bubble") at the output, which indicates inversion
 
-# Function :
+# Function:
 The output Y is the negation of the input A, respresented as, Y = Ā Returns 1, if the input is 0. Returns 0, if the input is 1.
 
 
-# Truth Table
+# Truth Table:
 
 | Input A | Output (¬A or A̅) |
 |---------|-------------------|
 |    0    |         1         |
 |    1    |         0         |
 
-### Logic Expression:
-**Output = A̅** or **¬A**
+# Logic Expression:
+Output = A̅ or ¬A
 
 - The NOT gate **inverts** the input:
   - If input is `0`, output is `1`
   - If input is `1`, output is `0`
+ 
+  - ---------
 
-4.NAND GATE
-Symbol:
+# 4.NAND GATE
+
+# Symbol:
 
 ![image](https://github.com/user-attachments/assets/36e984b1-5ce3-41dd-8c14-e88d41a6bbd3)
 
 
-Function :
+# Function:
 A NAND (Not AND) gate gives an output of 0 only when both inputs are 1.
 
-*It is the inverse of the AND gate.
+- It is the inverse of the AND gate.
 
  
-# Truth Table
+# Truth Table:
 
 | Input A | Input B | Output (¬(A · B)) |
 |---------|---------|-------------------|
@@ -418,25 +428,25 @@ A NAND (Not AND) gate gives an output of 0 only when both inputs are 1.
 |    1    |    0    |         1         |
 |    1    |    1    |         0         |
 
-### Logic Expression:
-**Output = ¬(A · B)** or **(A · B)̅**
+# Logic Expression:
+Output = ¬(A · B)** or **(A · B)̅**
 
 - The NAND gate outputs `0` **only when both inputs are 1**.
 - It is the inverse of the
 
-5.NOR GATE
-Symbol :
+# 5.NOR GATE
+# Symbol :
 
 
 ![image](https://github.com/user-attachments/assets/b2b4d83d-6829-4038-a0ea-257c468c63a3)
 
 
-Function :
+# Function :
 A NOR (Not OR) gate gives an output of 1 only when both inputs are 0.
 
-*It is the inverse of the OR gate.
+- It is the inverse of the OR gate.
 
-# Truth Table
+# Truth Table:
 
 | Input A | Input B | Output (¬(A + B)) |
 |---------|---------|-------------------|
@@ -445,27 +455,28 @@ A NOR (Not OR) gate gives an output of 1 only when both inputs are 0.
 |    1    |    0    |         0         |
 |    1    |    1    |         0         |
 
-### Logic Expression:
-**Output = ¬(A + B)** or **(A + B)̅**
+# Logic Expression:
+Output = ¬(A + B)** or **(A + B)̅**
 
 - The NOR gate outputs `1` **only when both inputs are 0**.
 - It is the inverse of the OR gate.
 
 
-6. XOR GATE
-Symbol :
+# 6.XOR GATE
+# Symbol :
 
 
 ![image](https://github.com/user-attachments/assets/22181ba3-da25-4cbf-9f1e-6d48b90333b1)
 
 
-Function :
+# Function :
+
 The XOR (Exclusive OR) gate gives an output of 1 only when the inputs are different.
 
-*Boolean Expression : Y = A ⊕ B = A̅·B + A·B̅
-Truth Table :
+- Boolean Expression : Y = A ⊕ B = A̅·B + A·B̅
 
-# Truth Table
+
+# Truth Table:
 
 | Input A | Input B | Output (A ⊕ B) |
 |---------|---------|----------------|
@@ -474,24 +485,24 @@ Truth Table :
 |    1    |    0    |       1        |
 |    1    |    1    |       0        |
 
-### Logic Expression:
-**Output = A ⊕ B**
+# Logic Expression:
+Output = A ⊕ B**
 
 - The XOR gate outputs `1` **only when the inputs are different**.
 
 
-7. XNOR GATE :
-Symbol :
+# 7.XNOR GATE :
+# Symbol :
 
 ![image](https://github.com/user-attachments/assets/cc454957-c040-4244-ac74-eb705f4e0ff5)
 
 
-Function :
+# Function :
 The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the same.
 
-*Boolean Expression : Y = (A ⊕ B)̅ = A·B + A̅·B̅
+- Boolean Expression : Y = (A ⊕ B)̅ = A·B + A̅·B̅
 
-# Truth Table
+# Truth Table:
 
 | Input A | Input B | Output (A ⊙ B) |
 |---------|---------|----------------|
@@ -500,8 +511,8 @@ The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the 
 |    1    |    0    |       0        |
 |    1    |    1    |       1        |
 
-### Logic Expression:
-**Output = A ⊙ B** (also written as \(\overline{A \oplus B}\))
+# Logic Expression:
+Output = A ⊙ B** (also written as \(\overline{A \oplus B}\))
 
 - The XNOR gate outputs `1` **only when the inputs are the same**.
 
@@ -514,7 +525,7 @@ An IC (Integrated Circuit) is a compact, miniaturized electronic circuit built i
 
 # Types of Logic Gates and Their IC Numbers
 
-Logic gates are the basic building blocks of digital circuits. Each gate performs a specific logic function and is available in the form of an Integrated Circuit (IC).
+- Logic gates are the basic building blocks of digital circuits. Each gate performs a specific logic function and is available in the form of an Integrated Circuit (IC).
 
 
 
@@ -578,11 +589,11 @@ The IC 7408 has **4 independent AND gates**, each with **2 inputs** and **1 outp
 
 - Consists of four independent 2-input AND gates in a single 14-pin DIP package.
 
-Each gate outputs HIGH only when both inputs are HIGH.
+- Each gate outputs HIGH only when both inputs are HIGH.
 
-Designed to operate with standard TTL voltage levels, typically 5V.
+- Designed to operate with standard TTL voltage levels, typically 5V.
 
-Commonly used in digital logic systems for control, decision-making, and signal validation.
+- Commonly used in digital logic systems for control, decision-making, and signal validation.
 
 
 ---
@@ -634,11 +645,11 @@ The IC **7432** consists of **four independent 2-input OR gates** in a 14-pin Du
 
 - Contains four independent 2-input OR gates in a single 14-pin DIP package.
 
-Each gate performs the logical OR operation: Output is HIGH if any input is HIGH.
+- Each gate performs the logical OR operation: Output is HIGH if any input is HIGH.
 
-Operates typically at 5V supply voltage with TTL logic compatibility.
+- Operates typically at 5V supply voltage with TTL logic compatibility.
 
-Widely used in digital circuits for combining multiple logic signals or enabling control logic.
+- Widely used in digital circuits for combining multiple logic signals or enabling control logic.
 
 
 - 
@@ -691,11 +702,11 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 
 - Contains six independent NOT gates (inverters) in a single 14-pin DIP package.
 
-Each gate inverts the input logic level: Output = NOT(Input).
+- Each gate inverts the input logic level: Output = NOT(Input).
 
-Operates with a wide supply voltage range: typically 4.75V to 5.25V.
+- Operates with a wide supply voltage range: typically 4.75V to 5.25V.
 
-Commonly used in digital logic circuits for signal inversion, waveform shaping, and logic level shifting
+- used in digital logic circuits for signal inversion, waveform shaping, and logic level shifting
 
 # Applications:
 - Signal inversion
@@ -736,15 +747,15 @@ Commonly used in digital logic circuits for signal inversion, waveform shaping, 
 - **Pin 14** – Vcc (+5V)
 - **Pin 7**  – GND (0V)
 
-Here is the IC 7400 description in 4 bullet points:
 
-IC 7400 consists of four independent 2-input NAND gates in a 14-pin DIP package.
 
-Each gate performs the logic operation: Y = ¬(A · B) (NAND function).
+-IC 7400 consists of four independent 2-input NAND gates in a 14-pin DIP package.
 
-Operates on +5V DC supply with pin 14 as Vcc and pin 7 as GND.
+-Each gate performs the logic operation: Y = ¬(A · B) (NAND function).
 
-Widely used in digital logic circuits, such as timers, latches, and control systems.
+-Operates on +5V DC supply with pin 14 as Vcc and pin 7 as GND.
+
+-Widely used in digital logic circuits, such as timers, latches, and control systems.
 
 
 # Applications:
@@ -784,13 +795,13 @@ The **IC 7402** contains **four independent 2-input NOR gates**. Each gate perfo
 | 13     | A4       | Input A of Gate 4                    |
 | 14     | Vcc      | Power Supply (+5V for TTL)           |
 
-Contains four independent 2-input NOR gates in a single 14-pin package.
+- Contains four independent 2-input NOR gates in a single 14-pin package.
 
-Each gate performs the logical NOR operation, outputting HIGH only when both inputs are LOW.
+- Each gate performs the logical NOR operation, outputting HIGH only when both inputs are LOW.
 
-Widely used in digital logic circuits for implementing NOR logic functions.
+- Widely used in digital logic circuits for implementing NOR logic functions.
 
-Operates typically at 5V supply voltage with standardized TTL logic levels.
+- Operates typically at 5V supply voltage with standardized TTL logic levels.
 
 
 ---------
@@ -820,13 +831,13 @@ Operates typically at 5V supply voltage with standardized TTL logic levels.
 | 14         | Vcc       | Positive Power Supply (+5V) |
 
 
-Contains four independent 2-input XOR gates in a single 14-pin package.
+- Contains four independent 2-input XOR gates in a single 14-pin package.
 
-Each gate outputs HIGH only when the number of HIGH inputs is odd (i.e., inputs are different).
+- Each gate outputs HIGH only when the number of HIGH inputs is odd (i.e., inputs are different).
 
-Commonly used for parity checking, arithmetic circuits, and digital comparison.
+- Commonly used for parity checking, arithmetic circuits, and digital comparison.
 
-Operates typically at 5V supply voltage with TTL-compatible logic levels.
+- Operates typically at 5V supply voltage with TTL-compatible logic levels.
 
 -------------
 
