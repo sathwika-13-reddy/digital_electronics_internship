@@ -869,6 +869,79 @@ The **IC 7402** contains **four independent 2-input NOR gates**. Each gate perfo
 - Each gate outputs HIGH when both inputs are the same (both HIGH or both LOW).
 - Used in equality detection, digital comparators, and parity circuits.
 - Operates at 5V supply voltage with TTL-compatible logic levels.
+- 
+
+
+
+
+# TINKER CARD LOGIC GATES
+# 1.AND GATE
+
+![image](https://github.com/user-attachments/assets/da9170d8-2fc2-467c-9ca0-b9a9da11b05d)
+
+
+https://www.tinkercad.com/things/fOfobxMCEBW-and-gate?sharecode=j_8n2KSpD3f5LKcmzVvaJSIw6A7fhyE-jNRnOHJxFiU
+
+---------------
+
+# 2.OR GATE
+
+![image](https://github.com/user-attachments/assets/10ac8c08-0811-42b0-a41d-490cc82e747c)
+
+
+https://www.tinkercad.com/things/lKZPyXAEMNc-or-gate?sharecode=jXxd-SpDmHHTyQdyUw5pfSnHZphy83RyIUHRacghbL4
+
+------------------
+
+# 3.NOT GATE
+
+
+![image](https://github.com/user-attachments/assets/929632b7-d039-436e-841f-94e8d3956b02)
+
+
+https://www.tinkercad.com/things/kUF9XcC3WpI-nor-gate?sharecode=Z_KnyAls3l5EHdBE3Pxy_3yfP6z07jgeFZfannSjekw
+
+-------------
+
+# 4.NOT GATE
+
+
+![image](https://github.com/user-attachments/assets/22034bbc-c72a-4fa7-946b-444948094d4c)
+
+
+https://www.tinkercad.com/things/kjzNcYUMK6G-not-gate?sharecode=Vb2GaxG-duD78K0ltgJJCpkjuwf-6Ok3Lm5GJyQdh3M
+
+-----------------
+
+# 5.NAND GATE
+
+
+![image](https://github.com/user-attachments/assets/c89e046a-52be-4e93-ae92-cac6461062ad)
+
+
+https://www.tinkercad.com/things/2XV8GgJ122T-nand-gate?sharecode=o5mKUq-mFiG7vqqcQ8XPHlrK9F9bOICSzB8Q4UYYgjA
+
+------------------------------
+
+# 6.XOR GATE
+
+
+![image](https://github.com/user-attachments/assets/01e0fd5d-6e7c-4a26-99dc-545c6acc6cdc)
+
+
+https://www.tinkercad.com/things/fEuDCj6Gk6n-xor-gate?sharecode=JM9vHWwbif3Lj7GUjIkPhpUnfeIfCduufKzjAw9Ub5M
+
+----------------
+
+# 7.XNOR GATE
+
+
+![image](https://github.com/user-attachments/assets/e1358f44-5082-4008-b12d-ed6b93ff72db)
+
+
+https://www.tinkercad.com/things/fq6O6knnfkm-xnor-gate?sharecode=iquvjY0KZAv2Xnp_AIUeW8Bal-Pdzds6_HhS5X_aW7I
+
+------------------
 
 
 
