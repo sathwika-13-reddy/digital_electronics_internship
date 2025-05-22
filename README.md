@@ -942,8 +942,35 @@ https://www.tinkercad.com/things/fEuDCj6Gk6n-xor-gate?sharecode=JM9vHWwbif3Lj7GU
 https://www.tinkercad.com/things/fq6O6knnfkm-xnor-gate?sharecode=iquvjY0KZAv2Xnp_AIUeW8Bal-Pdzds6_HhS5X_aW7I
 
 ------------------
+# IMPLEMENTATION OF GATES
+
+# 1.OR 0PERATION USING NAND IC
+
+![image](https://github.com/user-attachments/assets/a802f3e2-c5e4-4c12-9ff2-a3cfa0da22d8)
 
 
+https://www.tinkercad.com/things/aCpoxpxbirs-or-gate-using-nand?sharecode=ZOp1-zOUNptig09f4d1teMcVSrW1eIOsRRoHr1fFo4E
+
+-----------------
+# 2.NOT OPERATION USING NAND IC
+
+
+![image](https://github.com/user-attachments/assets/8f4f86c8-a94c-439b-9fb5-9d7746b8d7b5)
+
+
+https://www.tinkercad.com/things/5w8bod8q7ur-not-using-nand?sharecode=D-DyCMSv-YGMq35g7hoicR_AEPAQf8I7sO8UzXPx-JM
+
+-------------
+
+# 3.AND OPERATION USING NOR IC
+
+
+![image](https://github.com/user-attachments/assets/4a1e84af-57e6-470c-b6f2-d69b08dba5ed)
+
+
+https://www.tinkercad.com/things/kraNCAj0oeY-and-gate-using-nor?sharecode=K05LbFGCjSuXIB2nc3DUGTdqU6wGF_pnOMgy6-TrdCU
+
+-----------------
 
 
 
