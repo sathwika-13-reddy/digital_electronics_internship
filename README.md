@@ -972,6 +972,13 @@ https://www.tinkercad.com/things/kraNCAj0oeY-and-gate-using-nor?sharecode=K05LbF
 
 -----------------
 
+# HALF ADDER
+
+![image](https://github.com/user-attachments/assets/e1d013ed-be95-48c2-87b9-4be842dc7632)
+
+https://www.tinkercad.com/things/79egzPqBmSh-half-adder?sharecode=EXGfGBb40zthoJItsJMCrU7bsacctC5z47_1Cod10WM
+
+
 
 
 
