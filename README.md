@@ -974,6 +974,16 @@ https://www.tinkercad.com/things/kraNCAj0oeY-and-gate-using-nor?sharecode=K05LbF
 
 # HALF ADDER
 
+# Pin Daigram
+
+![image](https://github.com/user-attachments/assets/214baa9c-3bc1-474c-b154-5bacbd642091)
+
+
+# Truth Table
+
+![image](https://github.com/user-attachments/assets/a0b77db8-7df0-462d-92f6-ff94e49f8665)
+
+
 ![image](https://github.com/user-attachments/assets/e1d013ed-be95-48c2-87b9-4be842dc7632)
 
 https://www.tinkercad.com/things/79egzPqBmSh-half-adder?sharecode=EXGfGBb40zthoJItsJMCrU7bsacctC5z47_1Cod10WM 
@@ -981,6 +991,15 @@ https://www.tinkercad.com/things/79egzPqBmSh-half-adder?sharecode=EXGfGBb40zthoJ
 -------------
 
 # FULL ADDER
+
+# Pin Daigram
+
+# Truth Table
+
+![image](https://github.com/user-attachments/assets/d64f68ac-4278-4f27-b687-1e637b18b15d)
+
+
+
 
 ![image](https://github.com/user-attachments/assets/b4203910-0a80-4cfb-b272-b651fedab863)
 
