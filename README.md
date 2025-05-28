@@ -1072,9 +1072,38 @@ https://www.tinkercad.com/things/iybnVqVjyDm-not-using-nor-gate?sharecode=P9JA-w
 ![image](https://github.com/user-attachments/assets/a0b77db8-7df0-462d-92f6-ff94e49f8665)
 
 
+
 ![image](https://github.com/user-attachments/assets/e1d013ed-be95-48c2-87b9-4be842dc7632)
 
 https://www.tinkercad.com/things/79egzPqBmSh-half-adder?sharecode=EXGfGBb40zthoJItsJMCrU7bsacctC5z47_1Cod10WM 
+
+
+
+# Half Adder using EXOR (7486) and AND (7408) IC – Pin-to-Pin Connection Table
+
+This configuration uses:
+- **7486 IC** for the XOR operation (SUM output)
+- **7408 IC** for the AND operation (CARRY output)
+
+
+| S.No | From Pin            | To Pin             | Comment                                        |
+|------|---------------------|--------------------|------------------------------------------------|
+| 1    | A (Input Switch)    | 7486 Pin 1         | Input A to XOR Gate 1                          |
+| 2    | B (Input Switch)    | 7486 Pin 2         | Input B to XOR Gate 1                          |
+| 3    | 7486 Pin 3          | SUM Output LED     | Output of XOR Gate 1 = A ⊕ B (SUM)             |
+| 4    | A (Input Switch)    | 7408 Pin 1         | Input A to AND Gate 1                          |
+| 5    | B (Input Switch)    | 7408 Pin 2         | Input B to AND Gate 1                          |
+| 6    | 7408 Pin 3          | CARRY Output LED   | Output of AND Gate 1 = A • B (CARRY)           |
+| 7    | 7486 Pin 7          | GND                | Connect XOR IC GND to Ground                   |
+| 8    | 7486 Pin 14         | +5V Vcc            | Connect XOR IC Vcc to +5V supply               |
+| 9    | 7408 Pin 7          | GND                | Connect AND IC GND to Ground                   |
+| 10   | 7408 Pin 14         | +5V Vcc            | Connect AND IC Vcc to +5V supply               |
+
+# Logic Notes
+
+- **SUM** = A ⊕ B → using 7486 XOR gate  
+- **CARRY** = A • B → using 7408 AND gate  
+- Both ICs have 4 gates each; only 1 gate from each is used here.
 
 -------------
 
