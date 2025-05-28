@@ -318,6 +318,7 @@ Group 3 bits: 000 | 101 | 111
 Result → 057₈
 
 -------------------
+
 # BASIC LOGIC GATES
 
 # 1.AND GATE
@@ -605,6 +606,10 @@ An IC (Integrated Circuit) is a compact, miniaturized electronic circuit built i
 ![image](https://github.com/user-attachments/assets/ed0ed833-5f75-4234-8cda-cc4699b29a34)
 
 
+![Screenshot 2025-05-22 132514](https://github.com/user-attachments/assets/876670f0-ffbb-4ed9-a70e-f32735b80657)
+
+
+
 The IC 7408 has **4 independent AND gates**, each with **2 inputs** and **1 output**. Below is the pin-by-pin description:
 
 | Pin No | Pin Name | Description                             |
@@ -648,6 +653,10 @@ The IC 7408 has **4 independent AND gates**, each with **2 inputs** and **1 outp
 
 
 ![image](https://github.com/user-attachments/assets/7ef3fdec-fbe4-4d61-ad2e-118e1b3dde40)
+
+
+![Screenshot 2025-05-22 132905](https://github.com/user-attachments/assets/eee06759-2123-4044-ac00-41cd39070b6f)
+
 
 
 The IC **7432** consists of **four independent 2-input OR gates** in a 14-pin Dual In-Line Package (DIP). Each gate performs a logical OR operation.
@@ -702,6 +711,9 @@ The IC **7432** consists of **four independent 2-input OR gates** in a 14-pin Du
 # 3.IC 7404 – Hex Inverter (NOT Gate)
 
 ![image](https://github.com/user-attachments/assets/e84ef774-e2cc-4efa-a19a-45cfacb87de5)
+
+![Screenshot 2025-05-22 133415](https://github.com/user-attachments/assets/8990fc98-6935-443b-919f-0500b569400f)
+
 
 
 The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverter accepts a logic-level input and outputs the opposite logic level. Packaged in a **14-pin DIP**.
@@ -764,6 +776,9 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 
 ![image](https://github.com/user-attachments/assets/647c6d40-c4ea-4672-99ba-66ef014f2e96)
 
+![Screenshot 2025-05-22 133600](https://github.com/user-attachments/assets/e4a768d5-bb4f-43e9-a4a2-2bac2661c520)
+
+
 
 > Each gate performs the logic NAND operation:  
 > **Y = ¬(A · B)**
@@ -815,6 +830,9 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 
 ![image](https://github.com/user-attachments/assets/dc9d0145-3454-4e7e-8aaf-b86ddae5c897)
 
+![Screenshot 2025-05-22 133209](https://github.com/user-attachments/assets/7712b10c-10a1-428d-91cc-ef71e4222e72)
+
+
 
 
 The **IC 7402** contains **four independent 2-input NOR gates**. Each gate performs the logical NOR operation:  
@@ -855,6 +873,9 @@ The **IC 7402** contains **four independent 2-input NOR gates**. Each gate perfo
 
 ![image](https://github.com/user-attachments/assets/e41ad834-44a2-404f-ab73-9b47b577d948)
 
+![image](https://github.com/user-attachments/assets/e9cff2dc-8b95-4d0f-99ad-c39f58d462f3)
+
+
 
 
 | Pin Number | Pin Name | Description                  |
@@ -888,6 +909,9 @@ The **IC 7402** contains **four independent 2-input NOR gates**. Each gate perfo
 # 7.IC 74266 – Quad 2-Input XNOR Gate
 
 ![image](https://github.com/user-attachments/assets/215b2a6c-f8fa-491d-9f5b-91f3a5258f59)
+
+![image](https://github.com/user-attachments/assets/1c150e22-4891-4d7a-918a-df9af5b03d31)
+
 
 
 
