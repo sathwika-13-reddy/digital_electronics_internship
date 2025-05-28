@@ -12,9 +12,7 @@
 - [ IMPLEMENTATION OF GATES](#IMPLEMENTATION-OF-GATES)
 - [ IMPLEMENTATAION OF HALF ADDER](#IMPLEMENTATAION-OF-HALF-ADDER)
 - [IMPLEMENTATION OF FULL ADDER](IMPLEMENTATION-OF-FULL-ADDER)
-
-
-- 
+- [ IMPLEMENTATION OF 2*1 MULTIPLEXER](# IMPLEMENTATION-OF-2*1-MULTIPLEXER) 
 
 
 
@@ -612,6 +610,14 @@ An IC (Integrated Circuit) is a compact, miniaturized electronic circuit built i
 
 🔗 [Open AND Gate on Tinkercad](https://www.tinkercad.com/things/fOfobxMCEBW-and-gate?sharecode=j_8n2KSpD3f5LKcmzVvaJSIw6A7fhyE-jNRnOHJxFiU)
 
+# Applications
+- Logic circuits where two conditions must be true.
+- Digital control systems.
+- Signal enable logic.
+- Arithmetic logic units (ALUs).
+- Microcontroller decision-making circuits.
+- Security systems and alarms.
+
 
 
 The IC 7408 has **4 independent AND gates**, each with **2 inputs** and **1 output**. Below is the pin-by-pin description:
@@ -633,7 +639,6 @@ The IC 7408 has **4 independent AND gates**, each with **2 inputs** and **1 outp
 | 13     | B4       | Input B of Gate 4                       |
 | 14     | Vcc      | Supply Voltage (+5V for TTL logic)      |
 
----
 
 - **Pins 1–6** → Gate 1 & Gate 2
 - **Pins 8–13** → Gate 3 & Gate 4
@@ -712,8 +717,20 @@ The IC **7432** consists of **four independent 2-input OR gates** in a 14-pin Du
 
 - Widely used in digital circuits for combining multiple logic signals or enabling control logic.
 
+# Applications 
 
-- 
+- Used in logic decision circuits to output HIGH if any input is HIGH  
+- Applied in alarm systems (e.g., fire or security alarms)  
+- Enables signal routing and multiplexing in digital circuits  
+- Used in start/stop control and industrial automation logic  
+- Combines multiple interrupt signals in microprocessors  
+- Detects presence of any input signal in monitoring systems  
+- Implements digital switching with multiple input triggers  
+- Used in Arithmetic Logic Units (ALUs) for logic operations  
+- Controls traffic light systems based on multiple conditions  
+- Ideal for designing custom logic functions in digital systems  
+
+ 
 --------------
 
 # 3.IC 7404 – Hex Inverter (NOT Gate)
@@ -788,6 +805,11 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 # 4.IC 7400 – Quad 2-Input NAND Gate
 
 ![image](https://github.com/user-attachments/assets/647c6d40-c4ea-4672-99ba-66ef014f2e96)
+
+
+![image](https://github.com/user-attachments/assets/c89e046a-52be-4e93-ae92-cac6461062ad)
+
+
 
 
 🔗 [Open NAND Gate on Tinkercad](https://www.tinkercad.com/things/2XV8GgJ122T-nand-gate?sharecode=o5mKUq-mFiG7vqqcQ8XPHlrK9F9bOICSzB8Q4UYYgjA)
@@ -884,6 +906,20 @@ The **IC 7402** contains **four independent 2-input NOR gates**. Each gate perfo
 
 - Operates typically at 5V supply voltage with standardized TTL logic levels.
 
+## Applications
+
+- Basic NOR logic circuits  
+- Universal logic gate design  
+- Digital control systems  
+- Alarm and signal detection  
+- Memory decoding  
+- Timers and counters  
+- Combinational logic  
+- Inverter logic (tie inputs)  
+- Computer logic systems  
+- Pulse and waveform shaping  
+
+
 
 ---------
 
@@ -928,6 +964,20 @@ The **IC 7402** contains **four independent 2-input NOR gates**. Each gate perfo
 
 - Operates typically at 5V supply voltage with TTL-compatible logic levels.
 
+# Applications 
+
+- Parity generation/checking  
+- Binary adders/subtractors  
+- Digital comparators  
+- ALUs and logic circuits  
+- Error detection in data transmission  
+- Signal modulation  
+- Bitwise comparison  
+- Logic switching  
+- Phase detection  
+- Basic cryptographic logic  
+
+
 -------------
 
 # 7.IC 74266 – Quad 2-Input XNOR Gate
@@ -966,7 +1016,19 @@ The **IC 7402** contains **four independent 2-input NOR gates**. Each gate perfo
 - Each gate outputs HIGH when both inputs are the same (both HIGH or both LOW).
 - Used in equality detection, digital comparators, and parity circuits.
 - Operates at 5V supply voltage with TTL-compatible logic levels.
-- 
+
+# Applications 
+
+- Equality comparison circuits  
+- Logic comparators  
+- Digital error detection  
+- Parity checking  
+- Signal matching logic  
+- Controlled inverters (with strobe)  
+- Phase detection circuits  
+- Arithmetic logic designs  
+- Encoder/decoder logic  
+- Identity logic circuits  
 
 
 
@@ -1210,7 +1272,7 @@ Only 2 gates from XOR and AND ICs are used. Remaining gates can be left unconnec
 
 ---------------
 
-# 2*1 MULTIPLEXER
+# IMPLEMENTATION OF 2*1 MULTIPLEXER
 # Introduction
 - A 2:1 Multiplexer (MUX) selects one of two inputs and forwards it to a single output.
 - Control is based on a single **select line (S)**.
