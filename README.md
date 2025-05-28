@@ -1113,17 +1113,23 @@ This configuration uses:
 
 # Pin Daigram
 
+![image](https://github.com/user-attachments/assets/7e61f4ee-77ec-485c-b0b3-2b37458271cf)
+
+
 # Truth Table
 
-![image](https://github.com/user-attachments/assets/d64f68ac-4278-4f27-b687-1e637b18b15d)
+![Screenshot 2025-05-26 192245](https://github.com/user-attachments/assets/7d2dd253-eb9c-4e18-90ed-8079c424412c)
 
 
 
-
-![image](https://github.com/user-attachments/assets/b4203910-0a80-4cfb-b272-b651fedab863)
+![image](https://github.com/user-attachments/assets/a29a38cf-c411-4814-97ac-7ea38e012290)
 
 
 https://www.tinkercad.com/things/g4lCLiKjXc9-full-adder?sharecode=TuKP4uzOq6iB7cw8YDw9qI4viTGbj3Jr4UGfm4jWwVo
+
+
+
+
 
 
 
