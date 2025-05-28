@@ -1128,6 +1128,64 @@ This configuration uses:
 https://www.tinkercad.com/things/g4lCLiKjXc9-full-adder?sharecode=TuKP4uzOq6iB7cw8YDw9qI4viTGbj3Jr4UGfm4jWwVo
 
 
+# Full Adder using 7486 (XOR), 7408 (AND), and 7432 (OR) ICs – Pin-to-Pin Connection Table
+
+A Full Adder adds three 1-bit binary numbers: A, B, and Cin (Carry In), and outputs:
+- **SUM** = A ⊕ B ⊕ Cin
+- **CARRY** = (A • B) + (Cin • (A ⊕ B))
+
+# Pin Connections
+
+| S.No | From Pin             | To Pin              | Comment                                           |
+|------|----------------------|---------------------|---------------------------------------------------|
+| 1    | A (Input Switch)     | 7486 Pin 1          | Input A to XOR Gate 1                             |
+| 2    | B (Input Switch)     | 7486 Pin 2          | Input B to XOR Gate 1                             |
+| 3    | 7486 Pin 3           | 7486 Pin 4          | A ⊕ B output to input of second XOR gate          |
+| 4    | Cin (Input Switch)   | 7486 Pin 5          | Carry In to second XOR gate                       |
+| 5    | 7486 Pin 6           | SUM Output LED      | SUM = A ⊕ B ⊕ Cin                                 |
+| 6    | A (Input Switch)     | 7408 Pin 1          | Input A to AND Gate 1                             |
+| 7    | B (Input Switch)     | 7408 Pin 2          | Input B to AND Gate 1                             |
+| 8    | 7408 Pin 3           | 7432 Pin 1          | A • B to OR Gate 1                                |
+| 9    | 7486 Pin 3           | 7408 Pin 4          | A ⊕ B output to AND Gate 2                        |
+| 10   | Cin (Input Switch)   | 7408 Pin 5          | Cin to AND Gate 2                                 |
+| 11   | 7408 Pin 6           | 7432 Pin 2          | Cin • (A ⊕ B) to OR Gate 1                        |
+| 12   | 7432 Pin 3           | CARRY Output LED    | Carry = (A • B) + (Cin • (A ⊕ B))                 |
+| 13   | 7486 Pin 7           | GND                 | Ground for XOR IC                                 |
+| 14   | 7486 Pin 14          | +5V Vcc             | Power supply for XOR IC                           |
+| 15   | 7408 Pin 7           | GND                 | Ground for AND IC                                 |
+| 16   | 7408 Pin 14          | +5V Vcc             | Power supply for AND IC                           |
+| 17   | 7432 Pin 7           | GND                 | Ground for OR IC                                  |
+| 18   | 7432 Pin 14          | +5V Vcc             | Power supply for OR IC                            |
+
+# Logic Notes
+
+- **SUM** = A ⊕ B ⊕ Cin → using 2 XOR gates from IC 7486
+- **CARRY** = (A • B) + (Cin • (A ⊕ B)) → using 2 AND gates (IC 7408) and 1 OR gate (IC 7432)
+
+Only 2 gates from XOR and AND ICs are used. Remaining gates can be left unconnected or tied off.
+
+
+---------------
+
+# 2*1 MULTIPLEXER
+
+# PIN DAIGRAM  
+
+![image](https://github.com/user-attachments/assets/6ed3bb2b-09f4-4c92-a2f5-c7da4c8d8bda)
+
+# Truth Table
+
+![image](https://github.com/user-attachments/assets/baf3ee25-ba8b-45a8-b8da-be753e6ad8f5)
+
+
+
+![image](https://github.com/user-attachments/assets/797841bd-1cd3-411e-8d88-7e1973bbe833) 
+
+https://www.tinkercad.com/things/gmGdlk6Ekrb-21-multiplexer?sharecode=IOVGOv5c3v5PD7PAsjuvPpBAoavy_5nOXjH36SehCMo
+
+
+
+
 
 
 
