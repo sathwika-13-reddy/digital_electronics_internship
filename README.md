@@ -1038,6 +1038,25 @@ https://www.tinkercad.com/things/5w8bod8q7ur-not-using-nand?sharecode=D-DyCMSv-Y
 
 https://www.tinkercad.com/things/kraNCAj0oeY-and-gate-using-nor?sharecode=K05LbFGCjSuXIB2nc3DUGTdqU6wGF_pnOMgy6-TrdCU
 
+# 4.AND OPERATION USINF NAND GATE 7400IC
+
+![image](https://github.com/user-attachments/assets/aeb90e9c-c0d1-4a98-9c4c-5d3c5927e6c0)
+
+https://www.tinkercad.com/things/jblMKUMEH3Z-and-using-nand?sharecode=fz_ZTUGbdwoSjJ146oipzZ_LefaPlFxyRZ3M0XJHxdg
+
+# 5.OR OPERATION USING NOR GATE 7402
+
+![image](https://github.com/user-attachments/assets/f3e48ecb-946a-4a31-ba0f-9e76db056de0)
+
+https://www.tinkercad.com/things/ffe7yMd2Aw0-or-using-nor-gate?sharecode=NSY0rSpOb4RoGHuoJT7nnqgRu4DArxJWNijnrNV1Kcw
+
+# 6.NOT OPERATION USING NOR GATE 7402
+
+![image](https://github.com/user-attachments/assets/14cc26b6-ffd4-4e03-a616-d4e10716ed36)
+
+https://www.tinkercad.com/things/iybnVqVjyDm-not-using-nor-gate?sharecode=P9JA-w9YDAR5kGd5mgF3HLFWbfoJr1Rt089Tm0iB9eE
+
+
 -----------------
 # IMPLEMENTATAION OF HALF ADDER
 
