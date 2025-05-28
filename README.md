@@ -12,7 +12,7 @@
 - [ IMPLEMENTATION OF GATES](#IMPLEMENTATION-OF-GATES)
 - [ IMPLEMENTATAION OF HALF ADDER](#IMPLEMENTATAION-OF-HALF-ADDER)
 - [IMPLEMENTATION OF FULL ADDER](IMPLEMENTATION-OF-FULL-ADDER)
-- [ IMPLEMENTATION OF 2*1 MULTIPLEXER](# IMPLEMENTATION-OF-2*1-MULTIPLEXER) 
+- [IMPLEMENTATION OF 2*1 MULTIPLEXER](#IMPLEMENTATION-OF-2*1-MULTIPLEXER) 
 
 
 
@@ -1273,6 +1273,7 @@ Only 2 gates from XOR and AND ICs are used. Remaining gates can be left unconnec
 ---------------
 
 # IMPLEMENTATION OF 2*1 MULTIPLEXER
+
 # Introduction
 - A 2:1 Multiplexer (MUX) selects one of two inputs and forwards it to a single output.
 - Control is based on a single **select line (S)**.
