@@ -606,6 +606,10 @@ An IC (Integrated Circuit) is a compact, miniaturized electronic circuit built i
 ![image](https://github.com/user-attachments/assets/ed0ed833-5f75-4234-8cda-cc4699b29a34)
 
 
+![image](https://github.com/user-attachments/assets/da9170d8-2fc2-467c-9ca0-b9a9da11b05d)
+
+
+
 🔗 [Open AND Gate on Tinkercad](https://www.tinkercad.com/things/fOfobxMCEBW-and-gate?sharecode=j_8n2KSpD3f5LKcmzVvaJSIw6A7fhyE-jNRnOHJxFiU)
 
 
@@ -653,6 +657,10 @@ The IC 7408 has **4 independent AND gates**, each with **2 inputs** and **1 outp
 
 
 ![image](https://github.com/user-attachments/assets/7ef3fdec-fbe4-4d61-ad2e-118e1b3dde40)
+
+
+![image](https://github.com/user-attachments/assets/10ac8c08-0811-42b0-a41d-490cc82e747c)
+
 
 
 🔗 [Open OR Gate on Tinkercad](https://www.tinkercad.com/things/lKZPyXAEMNc-or-gate?sharecode=jXxd-SpDmHHTyQdyUw5pfSnHZphy83RyIUHRacghbL4)
@@ -711,6 +719,10 @@ The IC **7432** consists of **four independent 2-input OR gates** in a 14-pin Du
 # 3.IC 7404 – Hex Inverter (NOT Gate)
 
 ![image](https://github.com/user-attachments/assets/e84ef774-e2cc-4efa-a19a-45cfacb87de5)
+
+
+![image](https://github.com/user-attachments/assets/22034bbc-c72a-4fa7-946b-444948094d4c)
+
 
 
 🔗 [Open NOT Gate on Tinkercad](https://www.tinkercad.com/things/kjzNcYUMK6G-not-gate?sharecode=Vb2GaxG-duD78K0ltgJJCpkjuwf-6Ok3Lm5GJyQdh3M)
@@ -833,6 +845,10 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 ![image](https://github.com/user-attachments/assets/dc9d0145-3454-4e7e-8aaf-b86ddae5c897)
 
 
+![image](https://github.com/user-attachments/assets/929632b7-d039-436e-841f-94e8d3956b02)
+
+
+
 🔗 [Open NOR Gate on Tinkercad](https://www.tinkercad.com/things/kUF9XcC3WpI-nor-gate?sharecode=Z_KnyAls3l5EHdBE3Pxy_3yfP6z07jgeFZfannSjekw)
 
 
@@ -876,6 +892,7 @@ The **IC 7402** contains **four independent 2-input NOR gates**. Each gate perfo
 
 ![image](https://github.com/user-attachments/assets/e41ad834-44a2-404f-ab73-9b47b577d948)
 
+
 ![image](https://github.com/user-attachments/assets/e9cff2dc-8b95-4d0f-99ad-c39f58d462f3)
 
 
@@ -917,7 +934,9 @@ The **IC 7402** contains **four independent 2-input NOR gates**. Each gate perfo
 
 ![image](https://github.com/user-attachments/assets/215b2a6c-f8fa-491d-9f5b-91f3a5258f59)
 
+
 ![image](https://github.com/user-attachments/assets/1c150e22-4891-4d7a-918a-df9af5b03d31)
+
 
 🔗 [Open XNOR Gate on Tinkercad](https://www.tinkercad.com/things/fq6O6knnfkm-xnor-gate?sharecode=iquvjY0KZAv2Xnp_AIUeW8Bal-Pdzds6_HhS5X_aW7I)
 
@@ -971,7 +990,7 @@ The **IC 7402** contains **four independent 2-input NOR gates**. Each gate perfo
 
 ------------------
 
-# 3.NOT GATE
+# 3.NOR GATE
 
 
 ![image](https://github.com/user-attachments/assets/929632b7-d039-436e-841f-94e8d3956b02)
