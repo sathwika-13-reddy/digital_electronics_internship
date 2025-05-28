@@ -948,7 +948,7 @@ The **IC 7402** contains **four independent 2-input NOR gates**. Each gate perfo
 ![image](https://github.com/user-attachments/assets/da9170d8-2fc2-467c-9ca0-b9a9da11b05d)
 
 
-https://www.tinkercad.com/things/fOfobxMCEBW-and-gate?sharecode=j_8n2KSpD3f5LKcmzVvaJSIw6A7fhyE-jNRnOHJxFiU
+🔗 [Open AND Gate on Tinkercad](https://www.tinkercad.com/things/fOfobxMCEBW-and-gate?sharecode=j_8n2KSpD3f5LKcmzVvaJSIw6A7fhyE-jNRnOHJxFiU)
 
 ---------------
 
@@ -957,7 +957,7 @@ https://www.tinkercad.com/things/fOfobxMCEBW-and-gate?sharecode=j_8n2KSpD3f5LKcm
 ![image](https://github.com/user-attachments/assets/10ac8c08-0811-42b0-a41d-490cc82e747c)
 
 
-https://www.tinkercad.com/things/lKZPyXAEMNc-or-gate?sharecode=jXxd-SpDmHHTyQdyUw5pfSnHZphy83RyIUHRacghbL4
+🔗 [Open OR Gate on Tinkercad](https://www.tinkercad.com/things/lKZPyXAEMNc-or-gate?sharecode=jXxd-SpDmHHTyQdyUw5pfSnHZphy83RyIUHRacghbL4)
 
 ------------------
 
@@ -967,7 +967,8 @@ https://www.tinkercad.com/things/lKZPyXAEMNc-or-gate?sharecode=jXxd-SpDmHHTyQdyU
 ![image](https://github.com/user-attachments/assets/929632b7-d039-436e-841f-94e8d3956b02)
 
 
-https://www.tinkercad.com/things/kUF9XcC3WpI-nor-gate?sharecode=Z_KnyAls3l5EHdBE3Pxy_3yfP6z07jgeFZfannSjekw
+🔗 [Open NOR Gate on Tinkercad](https://www.tinkercad.com/things/kUF9XcC3WpI-nor-gate?sharecode=Z_KnyAls3l5EHdBE3Pxy_3yfP6z07jgeFZfannSjekw)
+
 
 -------------
 
@@ -977,7 +978,8 @@ https://www.tinkercad.com/things/kUF9XcC3WpI-nor-gate?sharecode=Z_KnyAls3l5EHdBE
 ![image](https://github.com/user-attachments/assets/22034bbc-c72a-4fa7-946b-444948094d4c)
 
 
-https://www.tinkercad.com/things/kjzNcYUMK6G-not-gate?sharecode=Vb2GaxG-duD78K0ltgJJCpkjuwf-6Ok3Lm5GJyQdh3M
+🔗 [Open NOT Gate on Tinkercad](https://www.tinkercad.com/things/kjzNcYUMK6G-not-gate?sharecode=Vb2GaxG-duD78K0ltgJJCpkjuwf-6Ok3Lm5GJyQdh3M)
+
 
 -----------------
 
@@ -987,7 +989,8 @@ https://www.tinkercad.com/things/kjzNcYUMK6G-not-gate?sharecode=Vb2GaxG-duD78K0l
 ![image](https://github.com/user-attachments/assets/c89e046a-52be-4e93-ae92-cac6461062ad)
 
 
-https://www.tinkercad.com/things/2XV8GgJ122T-nand-gate?sharecode=o5mKUq-mFiG7vqqcQ8XPHlrK9F9bOICSzB8Q4UYYgjA
+🔗 [Open NAND Gate on Tinkercad](https://www.tinkercad.com/things/2XV8GgJ122T-nand-gate?sharecode=o5mKUq-mFiG7vqqcQ8XPHlrK9F9bOICSzB8Q4UYYgjA)
+
 
 ------------------------------
 
@@ -997,7 +1000,8 @@ https://www.tinkercad.com/things/2XV8GgJ122T-nand-gate?sharecode=o5mKUq-mFiG7vqq
 ![image](https://github.com/user-attachments/assets/01e0fd5d-6e7c-4a26-99dc-545c6acc6cdc)
 
 
-https://www.tinkercad.com/things/fEuDCj6Gk6n-xor-gate?sharecode=JM9vHWwbif3Lj7GUjIkPhpUnfeIfCduufKzjAw9Ub5M
+🔗 [Open XOR Gate on Tinkercad](https://www.tinkercad.com/things/fEuDCj6Gk6n-xor-gate?sharecode=JM9vHWwbif3Lj7GUjIkPhpUnfeIfCduufKzjAw9Ub5M)
+
 
 ----------------
 
@@ -1007,7 +1011,7 @@ https://www.tinkercad.com/things/fEuDCj6Gk6n-xor-gate?sharecode=JM9vHWwbif3Lj7GU
 ![image](https://github.com/user-attachments/assets/e1358f44-5082-4008-b12d-ed6b93ff72db)
 
 
-https://www.tinkercad.com/things/fq6O6knnfkm-xnor-gate?sharecode=iquvjY0KZAv2Xnp_AIUeW8Bal-Pdzds6_HhS5X_aW7I
+🔗 [Open XNOR Gate on Tinkercad](https://www.tinkercad.com/things/fq6O6knnfkm-xnor-gate?sharecode=iquvjY0KZAv2Xnp_AIUeW8Bal-Pdzds6_HhS5X_aW7I)
 
 ------------------
 # IMPLEMENTATION OF GATES
@@ -1017,7 +1021,8 @@ https://www.tinkercad.com/things/fq6O6knnfkm-xnor-gate?sharecode=iquvjY0KZAv2Xnp
 ![image](https://github.com/user-attachments/assets/a802f3e2-c5e4-4c12-9ff2-a3cfa0da22d8)
 
 
-https://www.tinkercad.com/things/aCpoxpxbirs-or-gate-using-nand?sharecode=ZOp1-zOUNptig09f4d1teMcVSrW1eIOsRRoHr1fFo4E
+🔗 [Open NOT Gate (using NAND gate) on Tinkercad](https://www.tinkercad.com/things/5w8bod8q7ur-not-using-nand?sharecode=D-DyCMSv-YGMq35g7hoicR_AEPAQf8I7sO8UzXPx-JM)
+
 
 -----------------
 # 2.NOT OPERATION USING NAND IC
@@ -1026,7 +1031,8 @@ https://www.tinkercad.com/things/aCpoxpxbirs-or-gate-using-nand?sharecode=ZOp1-z
 ![image](https://github.com/user-attachments/assets/8f4f86c8-a94c-439b-9fb5-9d7746b8d7b5)
 
 
-https://www.tinkercad.com/things/5w8bod8q7ur-not-using-nand?sharecode=D-DyCMSv-YGMq35g7hoicR_AEPAQf8I7sO8UzXPx-JM
+🔗 [Open NOT Gate (using NAND gate) on Tinkercad](https://www.tinkercad.com/things/5w8bod8q7ur-not-using-nand?sharecode=D-DyCMSv-YGMq35g7hoicR_AEPAQf8I7sO8UzXPx-JM)
+
 
 -------------
 
@@ -1036,25 +1042,31 @@ https://www.tinkercad.com/things/5w8bod8q7ur-not-using-nand?sharecode=D-DyCMSv-Y
 ![image](https://github.com/user-attachments/assets/4a1e84af-57e6-470c-b6f2-d69b08dba5ed)
 
 
-https://www.tinkercad.com/things/kraNCAj0oeY-and-gate-using-nor?sharecode=K05LbFGCjSuXIB2nc3DUGTdqU6wGF_pnOMgy6-TrdCU
+🔗 [Open AND Gate (using NOR gates) on Tinkercad](https://www.tinkercad.com/things/kraNCAj0oeY-and-gate-using-nor?sharecode=K05LbFGCjSuXIB2nc3DUGTdqU6wGF_pnOMgy6-TrdCU)
+
+
 
 # 4.AND OPERATION USINF NAND GATE 7400IC
 
 ![image](https://github.com/user-attachments/assets/aeb90e9c-c0d1-4a98-9c4c-5d3c5927e6c0)
 
-https://www.tinkercad.com/things/jblMKUMEH3Z-and-using-nand?sharecode=fz_ZTUGbdwoSjJ146oipzZ_LefaPlFxyRZ3M0XJHxdg
+🔗 [Open AND Gate (using NAND gates) on Tinkercad](https://www.tinkercad.com/things/jblMKUMEH3Z-and-using-nand?sharecode=fz_ZTUGbdwoSjJ146oipzZ_LefaPlFxyRZ3M0XJHxdg)
+
 
 # 5.OR OPERATION USING NOR GATE 7402
 
 ![image](https://github.com/user-attachments/assets/f3e48ecb-946a-4a31-ba0f-9e76db056de0)
 
-https://www.tinkercad.com/things/ffe7yMd2Aw0-or-using-nor-gate?sharecode=NSY0rSpOb4RoGHuoJT7nnqgRu4DArxJWNijnrNV1Kcw
+🔗 [Open OR Gate (using NOR gates) on Tinkercad](https://www.tinkercad.com/things/ffe7yMd2Aw0-or-using-nor-gate?sharecode=NSY0rSpOb4RoGHuoJT7nnqgRu4DArxJWNijnrNV1Kcw)
+
 
 # 6.NOT OPERATION USING NOR GATE 7402
 
 ![image](https://github.com/user-attachments/assets/14cc26b6-ffd4-4e03-a616-d4e10716ed36)
 
-https://www.tinkercad.com/things/iybnVqVjyDm-not-using-nor-gate?sharecode=P9JA-w9YDAR5kGd5mgF3HLFWbfoJr1Rt089Tm0iB9eE
+
+🔗 [Open NOT Gate (using NOR gate) on Tinkercad](https://www.tinkercad.com/things/iybnVqVjyDm-not-using-nor-gate?sharecode=P9JA-w9YDAR5kGd5mgF3HLFWbfoJr1Rt089Tm0iB9eE)
+
 
 
 -----------------
@@ -1075,7 +1087,7 @@ https://www.tinkercad.com/things/iybnVqVjyDm-not-using-nor-gate?sharecode=P9JA-w
 
 ![image](https://github.com/user-attachments/assets/e1d013ed-be95-48c2-87b9-4be842dc7632)
 
-https://www.tinkercad.com/things/79egzPqBmSh-half-adder?sharecode=EXGfGBb40zthoJItsJMCrU7bsacctC5z47_1Cod10WM 
+🔗 [Open Half Adder on Tinkercad](https://www.tinkercad.com/things/79egzPqBmSh-half-adder?sharecode=EXGfGBb40zthoJItsJMCrU7bsacctC5z47_1Cod10WM)
 
 
 
@@ -1125,7 +1137,9 @@ This configuration uses:
 ![image](https://github.com/user-attachments/assets/a29a38cf-c411-4814-97ac-7ea38e012290)
 
 
-https://www.tinkercad.com/things/g4lCLiKjXc9-full-adder?sharecode=TuKP4uzOq6iB7cw8YDw9qI4viTGbj3Jr4UGfm4jWwVo
+
+🔗 [Open Full Adder on Tinkercad](https://www.tinkercad.com/things/g4lCLiKjXc9-full-adder?sharecode=TuKP4uzOq6iB7cw8YDw9qI4viTGbj3Jr4UGfm4jWwVo)
+
 
 
 # Full Adder using 7486 (XOR), 7408 (AND), and 7432 (OR) ICs – Pin-to-Pin Connection Table
@@ -1168,6 +1182,54 @@ Only 2 gates from XOR and AND ICs are used. Remaining gates can be left unconnec
 ---------------
 
 # 2*1 MULTIPLEXER
+# Introduction
+- A 2:1 Multiplexer (MUX) selects one of two inputs and forwards it to a single output.
+- Control is based on a single **select line (S)**.
+- This design uses basic gates from standard TTL ICs.
+
+
+# How a 2:1 MUX Works – Step-by-Step
+It has 3 inputs:
+
+A – Input 1
+
+B – Input 2
+
+S – Select line
+
+It has 1 output:
+
+Y – Output based on selected input
+
+Logic Operation:
+
+If S = 0, the output Y = A
+
+If S = 1, the output Y = B
+
+Internally:
+
+S = 0:
+
+NOT(S) = 1
+
+A is passed through an AND gate (A AND NOT(S))
+
+B is blocked (B AND S = 0)
+
+S = 1:
+
+NOT(S) = 0
+
+A is blocked
+
+B is passed through (B AND S)
+
+The outputs of both AND gates go into an OR gate, so only the selected input reaches Y.
+
+
+# Logic Expression
+- Output Y = (A AND NOT(S)) OR (B AND S)
 
 # PIN DAIGRAM  
 
@@ -1181,12 +1243,40 @@ Only 2 gates from XOR and AND ICs are used. Remaining gates can be left unconnec
 
 ![image](https://github.com/user-attachments/assets/797841bd-1cd3-411e-8d88-7e1973bbe833) 
 
-https://www.tinkercad.com/things/gmGdlk6Ekrb-21-multiplexer?sharecode=IOVGOv5c3v5PD7PAsjuvPpBAoavy_5nOXjH36SehCMo
+
+
+🔗 [Open 2:1 Multiplexer on Tinkercad](https://www.tinkercad.com/things/gmGdlk6Ekrb-21-multiplexer?sharecode=IOVGOv5c3v5PD7PAsjuvPpBAoavy_5nOXjH36SehCMo)
 
 
 
 
+   
+# ICs Used:
+- **IC 7404** – Hex Inverter (NOT Gate)
+- **IC 7408** – Quad 2-Input AND Gate
+- **IC 7432** – Quad 2-Input OR Gate
 
+
+# Multiplexer using 7404 (NOT), 7408 (AND), and 7432 (OR) ICs – Pin-to-Pin Connection Table
+
+
+| S.No | From Pin         | To Pin         | IC Used | Description                         |
+|------|------------------|----------------|---------|-------------------------------------|
+| 1    | VCC (+5V)        | Pin 14 (All ICs) | -     | Power Supply                        |
+| 2    | GND              | Pin 7 (All ICs)  | -     | Ground                              |
+| 3    | Select (S)       | Pin 1 (7404)     | 7404  | Input to NOT gate                   |
+| 4    | Pin 2 (7404)     | Pin 1 (7408)     | 7408  | Output of NOT(S) to AND gate 1      |
+| 5    | Input A          | Pin 2 (7408)     | 7408  | Input A to AND gate 1               |
+| 6    | Input B          | Pin 4 (7408)     | 7408  | Input B to AND gate 2               |
+| 7    | Select (S)       | Pin 3 (7408)     | 7408  | S to AND gate 2                     |
+| 8    | Pin 3 (7408)     | Pin 1 (7432)     | 7432  | Output of AND1 to OR input1         |
+| 9    | Pin 6 (7408)     | Pin 2 (7432)     | 7432  | Output of AND2 to OR input2         |
+| 10   | Pin 3 (7432)     | OUTPUT Y         | 7432  | Final Output of MUX                 |
+
+
+
+- Unused inputs must be tied HIGH or LOW.
+- Use bypass capacitors (0.1μF) near VCC for each IC.
 
 
 
