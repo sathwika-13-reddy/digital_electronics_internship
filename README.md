@@ -9,6 +9,16 @@
 - [Conversion between number system](#Conversion-between-number-system)
 - [BASIC LOGIC GATES](#BASIC-LOGIC-GATES)
 - [ Integrated Circuits](#Integrated-Circuits)
+- [ IMPLEMENTATION OF GATES](#IMPLEMENTATION-OF-GATES)
+- [ IMPLEMENTATAION OF HALF ADDER](#IMPLEMENTATAION-OF-HALF-ADDER)
+- [IMPLEMENTATION OF FULL ADDER](IMPLEMENTATION-OF-FULL-ADDER)
+
+
+- 
+
+
+
+
 
 # what is digital electronics
 
@@ -318,6 +328,11 @@ Result → 057₈
 
 A curved-shaped gate with two inputs and one output.
 
+# AND GATE IC
+
+![image](https://github.com/user-attachments/assets/9a380fcd-28bc-47af-b809-bfcf3ebffa23)
+
+
 # Function:
 The AND gate outputs 1 (true) only when both inputs are 1. Otherwise, it outputs 0.
 
@@ -351,6 +366,11 @@ Output = A · B
 ![image](https://github.com/user-attachments/assets/fd0fd89d-c013-41de-9802-c5674e83aee4)
 
 A curved-shaped gate with two inputs and one output.
+
+# OR GATE IC
+
+![image](https://github.com/user-attachments/assets/e4a702a7-a101-43b8-8801-1c53a4e272f5)
+
 
 # Function:
 The OR gate outputs 1 (true) if at least one input is 1.
@@ -386,6 +406,11 @@ The NOT gate symbol represents a digital logic inverter, and it is visually dist
 
  - A small circle (called a "bubble") at the output, which indicates inversion
 
+# NOT GATE IC
+
+![image](https://github.com/user-attachments/assets/1c4510a3-9296-4f81-8e98-936fe8e6d9b3)
+
+
 # Function:
 The output Y is the negation of the input A, respresented as, Y = Ā Returns 1, if the input is 0. Returns 0, if the input is 1.
 
@@ -411,6 +436,11 @@ Output = A̅ or ¬A
 # Symbol:
 
 ![image](https://github.com/user-attachments/assets/36e984b1-5ce3-41dd-8c14-e88d41a6bbd3)
+
+# NAND GATE IC
+
+![image](https://github.com/user-attachments/assets/5eb4bce8-3dd5-43e2-a4d9-29fd66eb375c)
+
 
 
 # Function:
@@ -440,6 +470,10 @@ Output = ¬(A · B)** or **(A · B)̅**
 
 ![image](https://github.com/user-attachments/assets/b2b4d83d-6829-4038-a0ea-257c468c63a3)
 
+# NOR GATE IC
+
+![image](https://github.com/user-attachments/assets/8d964cce-7978-42e5-b4a4-ef121c473178)
+
 
 # Function :
 A NOR (Not OR) gate gives an output of 1 only when both inputs are 0.
@@ -468,6 +502,11 @@ Output = ¬(A + B)** or **(A + B)̅**
 
 ![image](https://github.com/user-attachments/assets/22181ba3-da25-4cbf-9f1e-6d48b90333b1)
 
+# XOR GATE IC
+
+![image](https://github.com/user-attachments/assets/a9279cdd-fc5b-4be6-bc3c-addb651009da)
+
+
 
 # Function :
 
@@ -495,6 +534,11 @@ Output = A ⊕ B**
 # Symbol :
 
 ![image](https://github.com/user-attachments/assets/cc454957-c040-4244-ac74-eb705f4e0ff5)
+
+# XNOR GATE IC
+
+![image](https://github.com/user-attachments/assets/7525d41a-e8ce-4bb1-a067-da51bf29a261)
+
 
 
 # Function :
@@ -971,6 +1015,7 @@ https://www.tinkercad.com/things/5w8bod8q7ur-not-using-nand?sharecode=D-DyCMSv-Y
 https://www.tinkercad.com/things/kraNCAj0oeY-and-gate-using-nor?sharecode=K05LbFGCjSuXIB2nc3DUGTdqU6wGF_pnOMgy6-TrdCU
 
 -----------------
+# IMPLEMENTATAION OF HALF ADDER
 
 # HALF ADDER
 
@@ -989,6 +1034,8 @@ https://www.tinkercad.com/things/kraNCAj0oeY-and-gate-using-nor?sharecode=K05LbF
 https://www.tinkercad.com/things/79egzPqBmSh-half-adder?sharecode=EXGfGBb40zthoJItsJMCrU7bsacctC5z47_1Cod10WM 
 
 -------------
+
+# IMPLEMENTATION OF FULL ADDER
 
 # FULL ADDER
 
