@@ -8,11 +8,11 @@
 - [NUMBER SYSTEM](#NUMBER-SYSTEM)
 - [Conversion between number system](#Conversion-between-number-system)
 - [BASIC LOGIC GATES](#BASIC-LOGIC-GATES)
-- [ Integrated Circuits](#Integrated-Circuits)
-- [ IMPLEMENTATION OF GATES](#IMPLEMENTATION-OF-GATES)
-- [ IMPLEMENTATAION OF HALF ADDER](#IMPLEMENTATAION-OF-HALF-ADDER)
-- [IMPLEMENTATION OF FULL ADDER](IMPLEMENTATION-OF-FULL-ADDER)
-- [IMPLEMENTATION OF 2*1 MULTIPLEXER](#IMPLEMENTATION-OF-2*1-MULTIPLEXER) 
+- [Integrated Circuits](#Integrated-Circuits)
+- [IMPLEMENTATION OF GATES](#IMPLEMENTATION-OF-GATES)
+- [IMPLEMENTATAION OF HALF ADDER](#IMPLEMENTATAION-OF-HALF-ADDER)
+- [IMPLEMENTATION OF FULL ADDER](#IMPLEMENTATION-OF-FULL-ADDER)
+- [IMPLEMENTATION OF 2X1 MULTIPLEXER](#IMPLEMENTATION-OF-2X1-MULTIPLEXER) 
 
 
 
@@ -1200,15 +1200,15 @@ Only 2 gates from XOR and AND ICs are used. Remaining gates can be left unconnec
 
 ---------------
 
-# IMPLEMENTATION OF 2*1 MULTIPLEXER
+# IMPLEMENTATION OF 2X1 MULTIPLEXER
 
 # Introduction
-- A 2:1 Multiplexer (MUX) selects one of two inputs and forwards it to a single output.
+- A 2X1 Multiplexer (MUX) selects one of two inputs and forwards it to a single output.
 - Control is based on a single **select line (S)**.
 - This design uses basic gates from standard TTL ICs.
 
 
-# How a 2:1 MUX Works – Step-by-Step
+# How a 2X1 MUX Works – Step-by-Step
 # It has 3 inputs:
 
 A – Input 1
