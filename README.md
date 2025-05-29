@@ -18,7 +18,7 @@
 
 
 
-# what is digital electronics
+# What is digital electronics
 
 DEFINATION:
 Definition	Digital electronics is a branch of electronics that deals with digital signals — signals that have only two discrete levels: HIGH (1) and LOW (0). It is the foundation of computers, digital communication, and modern electronic devices.
@@ -56,7 +56,7 @@ Applications	Found in almost all modern electronics: computers, smartphones, dig
 
 # LOGIC LEVELS 
 In digital electronics, logic levels refer to the specific voltage ranges that represent binary states — typically 0 (LOW) and 1 (HIGH). These levels indicate how the digital system interprets voltages as logical TRUE (1) or FALSE (0).
-## Logic Levels Table
+# Logic Levels Table
 
 | Logic Level | Digital Value | Voltage Range (Typical for TTL) | Voltage Range (Typical for CMOS) |
 |-------------|---------------|-------------------------------|----------------------------------|
@@ -65,7 +65,7 @@ In digital electronics, logic levels refer to the specific voltage ranges that r
 | Undefined   | -             | 0.8V to 2V                    | 1.5V to 3.5V                     |
 
 
-LOGIC LEVELS
+- LOGIC LEVELS
 
 Logic 0 (LOW)
 
@@ -73,13 +73,13 @@ Logic 1 (HIGH)
 
 - Digital circuits operate using only these two levels to interpret data, control operations, and perform computations.
 
-1. Logic LOW (0)
+# 1.Logic LOW (0)
 
 - Logic 0, also called LOW, represents the binary value 0.
 
 
 
-2. Logic HIGH (1)
+# 2.Logic HIGH (1)
 
 - Logic 1, also called HIGH, represents the binary value 1.
 
@@ -327,7 +327,7 @@ Result → 057₈
 
 A curved-shaped gate with two inputs and one output.
 
-# AND GATE IC
+# AND GATE IC:
 
 ![image](https://github.com/user-attachments/assets/9a380fcd-28bc-47af-b809-bfcf3ebffa23)
 
@@ -364,9 +364,9 @@ Output = A · B
 
 ![image](https://github.com/user-attachments/assets/fd0fd89d-c013-41de-9802-c5674e83aee4)
 
-A curved-shaped gate with two inputs and one output.
+- A curved-shaped gate with two inputs and one output.
 
-# OR GATE IC
+# OR GATE IC:
 
 ![image](https://github.com/user-attachments/assets/e4a702a7-a101-43b8-8801-1c53a4e272f5)
 
@@ -405,7 +405,7 @@ The NOT gate symbol represents a digital logic inverter, and it is visually dist
 
  - A small circle (called a "bubble") at the output, which indicates inversion
 
-# NOT GATE IC
+# NOT GATE IC:
 
 ![image](https://github.com/user-attachments/assets/1c4510a3-9296-4f81-8e98-936fe8e6d9b3)
 
@@ -436,7 +436,7 @@ Output = A̅ or ¬A
 
 ![image](https://github.com/user-attachments/assets/36e984b1-5ce3-41dd-8c14-e88d41a6bbd3)
 
-# NAND GATE IC
+# NAND GATE IC:
 
 ![image](https://github.com/user-attachments/assets/5eb4bce8-3dd5-43e2-a4d9-29fd66eb375c)
 
@@ -469,7 +469,7 @@ Output = ¬(A · B)** or **(A · B)̅**
 
 ![image](https://github.com/user-attachments/assets/b2b4d83d-6829-4038-a0ea-257c468c63a3)
 
-# NOR GATE IC
+# NOR GATE IC:
 
 ![image](https://github.com/user-attachments/assets/8d964cce-7978-42e5-b4a4-ef121c473178)
 
@@ -501,7 +501,7 @@ Output = ¬(A + B)** or **(A + B)̅**
 
 ![image](https://github.com/user-attachments/assets/22181ba3-da25-4cbf-9f1e-6d48b90333b1)
 
-# XOR GATE IC
+# XOR GATE IC:
 
 ![image](https://github.com/user-attachments/assets/a9279cdd-fc5b-4be6-bc3c-addb651009da)
 
@@ -534,7 +534,7 @@ Output = A ⊕ B**
 
 ![image](https://github.com/user-attachments/assets/cc454957-c040-4244-ac74-eb705f4e0ff5)
 
-# XNOR GATE IC
+# XNOR GATE IC:
 
 ![image](https://github.com/user-attachments/assets/7525d41a-e8ce-4bb1-a067-da51bf29a261)
 
@@ -816,7 +816,7 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 
 
 
-> Each gate performs the logic NAND operation:  
+-  Each gate performs the logic NAND operation:  
 > **Y = ¬(A · B)**
 
 
@@ -876,7 +876,7 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 
 
 
-The **IC 7402** contains **four independent 2-input NOR gates**. Each gate performs the logical NOR operation:  
+- The **IC 7402** contains **four independent 2-input NOR gates**. Each gate performs the logical NOR operation:  
 **Y = ¬(A + B)**
 
 
@@ -1031,79 +1031,6 @@ The **IC 7402** contains **four independent 2-input NOR gates**. Each gate perfo
 - Identity logic circuits  
 
 
-
-
-# TINKER CARD LOGIC GATES
-# 1.AND GATE
-
-![image](https://github.com/user-attachments/assets/da9170d8-2fc2-467c-9ca0-b9a9da11b05d)
-
-
-🔗 [Open AND Gate on Tinkercad](https://www.tinkercad.com/things/fOfobxMCEBW-and-gate?sharecode=j_8n2KSpD3f5LKcmzVvaJSIw6A7fhyE-jNRnOHJxFiU)
-
----------------
-
-# 2.OR GATE
-
-![image](https://github.com/user-attachments/assets/10ac8c08-0811-42b0-a41d-490cc82e747c)
-
-
-🔗 [Open OR Gate on Tinkercad](https://www.tinkercad.com/things/lKZPyXAEMNc-or-gate?sharecode=jXxd-SpDmHHTyQdyUw5pfSnHZphy83RyIUHRacghbL4)
-
-------------------
-
-# 3.NOR GATE
-
-
-![image](https://github.com/user-attachments/assets/929632b7-d039-436e-841f-94e8d3956b02)
-
-
-🔗 [Open NOR Gate on Tinkercad](https://www.tinkercad.com/things/kUF9XcC3WpI-nor-gate?sharecode=Z_KnyAls3l5EHdBE3Pxy_3yfP6z07jgeFZfannSjekw)
-
-
--------------
-
-# 4.NOT GATE
-
-
-![image](https://github.com/user-attachments/assets/22034bbc-c72a-4fa7-946b-444948094d4c)
-
-
-🔗 [Open NOT Gate on Tinkercad](https://www.tinkercad.com/things/kjzNcYUMK6G-not-gate?sharecode=Vb2GaxG-duD78K0ltgJJCpkjuwf-6Ok3Lm5GJyQdh3M)
-
-
------------------
-
-# 5.NAND GATE
-
-
-![image](https://github.com/user-attachments/assets/c89e046a-52be-4e93-ae92-cac6461062ad)
-
-
-🔗 [Open NAND Gate on Tinkercad](https://www.tinkercad.com/things/2XV8GgJ122T-nand-gate?sharecode=o5mKUq-mFiG7vqqcQ8XPHlrK9F9bOICSzB8Q4UYYgjA)
-
-
-------------------------------
-
-# 6.XOR GATE
-
-
-![image](https://github.com/user-attachments/assets/01e0fd5d-6e7c-4a26-99dc-545c6acc6cdc)
-
-
-🔗 [Open XOR Gate on Tinkercad](https://www.tinkercad.com/things/fEuDCj6Gk6n-xor-gate?sharecode=JM9vHWwbif3Lj7GUjIkPhpUnfeIfCduufKzjAw9Ub5M)
-
-
-----------------
-
-# 7.XNOR GATE
-
-
-![image](https://github.com/user-attachments/assets/e1358f44-5082-4008-b12d-ed6b93ff72db)
-
-
-🔗 [Open XNOR Gate on Tinkercad](https://www.tinkercad.com/things/fq6O6knnfkm-xnor-gate?sharecode=iquvjY0KZAv2Xnp_AIUeW8Bal-Pdzds6_HhS5X_aW7I)
-
 ------------------
 # IMPLEMENTATION OF GATES
 
@@ -1221,7 +1148,8 @@ This configuration uses:
 
 # Truth Table
 
-![Screenshot 2025-05-26 192245](https://github.com/user-attachments/assets/7d2dd253-eb9c-4e18-90ed-8079c424412c)
+
+![image](https://github.com/user-attachments/assets/46e54667-623e-4d4e-8d4d-bb102d049982)
 
 
 
@@ -1281,7 +1209,7 @@ Only 2 gates from XOR and AND ICs are used. Remaining gates can be left unconnec
 
 
 # How a 2:1 MUX Works – Step-by-Step
-It has 3 inputs:
+# It has 3 inputs:
 
 A – Input 1
 
@@ -1293,15 +1221,15 @@ It has 1 output:
 
 Y – Output based on selected input
 
-Logic Operation:
+# Logic Operation:
 
 If S = 0, the output Y = A
 
 If S = 1, the output Y = B
 
-Internally:
+- Internally:
 
-S = 0:
+- S = 0:
 
 NOT(S) = 1
 
@@ -1309,7 +1237,7 @@ A is passed through an AND gate (A AND NOT(S))
 
 B is blocked (B AND S = 0)
 
-S = 1:
+- S = 1:
 
 NOT(S) = 0
 
@@ -1367,8 +1295,6 @@ The outputs of both AND gates go into an OR gate, so only the selected input rea
 
 
 
-- Unused inputs must be tied HIGH or LOW.
-- Use bypass capacitors (0.1μF) near VCC for each IC.
 
 
 
