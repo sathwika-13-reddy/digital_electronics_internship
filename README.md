@@ -1153,7 +1153,7 @@ This configuration uses:
 
 
 
-![image](https://github.com/user-attachments/assets/a29a38cf-c411-4814-97ac-7ea38e012290)
+![image](https://github.com/user-attachments/assets/9a0fa9fa-8536-4037-a9fa-b79ee9a6040d)
 
 
 
