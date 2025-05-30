@@ -1294,6 +1294,98 @@ The outputs of both AND gates go into an OR gate, so only the selected input rea
 | 10   | Pin 3 (7432)     | OUTPUT Y         | 7432  | Final Output of MUX                 |
 
 
+--------------
+
+# 4X1 MULTIPLEXER
+
+# Definition
+
+A **4x1 Multiplexer (MUX)** is a combinational logic circuit that selects one of **four input data lines (I₀, I₁, I₂, I₃)** and transmits the selected input to a single output line (**Y**) based on the values of **two selection inputs (S₁ and S₀)**.
+
+It functions like a digitally controlled switch, allowing one input line to be passed through based on the control signal
+
+
+# Summary of IC Usage
+
+- IC 7411: For 3-input AND gates (one per minterm)
+
+- IC 7404: For inverting selection lines (S0, S1 → S̅0, S̅1)
+
+- IC 7432: For combining the AND outputs (2 OR gates needed)
+
+
+| **Function**         | **IC Number** | **Description**            | **Number of Gates** |
+| -------------------- | ------------- | -------------------------- | ------------------- |
+| **3-input AND gate** | **IC 7411**   | Triple 3-input AND gate    | 3 gates             |
+| **NOT gate**         | **IC 7404**   | Hex Inverter (6 NOT gates) | 6 gates             |
+| **2-input OR gate**  | **IC 7432**   | Quad 2-input OR gate       | 4 gates             |
+
+
+
+# CIRCUIT DAIGRAM
+
+![image](https://github.com/user-attachments/assets/2d5bbca6-0900-4f0a-acbc-72970fe3950e)
+
+# IC Implementation:
+
+You can implement a 4x1 multiplexer using:
+
+- IC 74153 – Dual 4-to-1 multiplexer
+
+- Basic gates: AND, OR, NOT (e.g., IC 7408 for AND, IC 7432 for OR, IC 7404 for NOT)
+
+
+
+# Truth Table
+
+| S₁ | S₀ | Output Y |
+|----|----|-----------|
+| 0  | 0  | I₀        |
+| 0  | 1  | I₁        |
+| 1  | 0  | I₂        |
+| 1  | 1  | I₃        |
+
+
+![image](https://github.com/user-attachments/assets/139cfa38-287c-4a38-b646-0cc2ddc2f5fc)
+
+
+
+
+👉 [Click here to open Tinkercad 4x1 MUX Simulation](https://www.tinkercad.com/things/9PzQImbqAtm-4x1-mux?sharecode=ci4PXRK-9eVPae66JNITZf6OGIbd84I6TfEUArPXFSg)
+
+
+
+# 4x1 MUX Pin-to-Pin Connection Table (Using IC 7411 - AND, IC 7432 - OR, IC 7404 - NOT)
+
+
+| S.No | From Pin             | To Pin             | IC Used  | Purpose                          |
+|------|----------------------|--------------------|----------|----------------------------------|
+| 1    | S0                   | 1A (IC 7404)        | 7404     | Invert S0 to get S̅0             |
+| 2    | S1                   | 3A (IC 7404)        | 7404     | Invert S1 to get S̅1             |
+| 3    | S̅1, S̅0, I0         | 1A, 1B, 1C (IC 7411)| 7411     | AND gate for I0 path             |
+| 4    | S̅1, S0, I1          | 2A, 2B, 2C (IC 7411)| 7411     | AND gate for I1 path             |
+| 5    | S1, S̅0, I2          | 3A, 3B, 3C (IC 7411)| 7411     | AND gate for I2 path             |
+| 6    | S1, S0, I3           | 4A, 4B, 4C (IC 7411)| 7411     | AND gate for I3 path             |
+| 7    | Outputs of all ANDs  | Inputs of OR gates | 7432     | Combine outputs using OR         |
+| 8    | Final OR output      | Y (Output)         | 7432     | Output of 4x1 Multiplexer        |
+
+
+
+# Applications:
+
+- Data routing in communication systems
+
+- Logic function generation
+
+- Control units in CPUs
+
+- Signal selection in digital systems
+
+
+
+
+
+
 
 
 
