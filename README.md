@@ -1,31 +1,30 @@
 # 
 # Table of Content
 
-- [what is digital electronics](#what-is-digital-electronics)
-- [Applications of Digital Electronics](#Applications-of-Digital-Electronics)
-- [Digital vs Analog signals](#Digital-vs-Analog-signals)
+- [WHAT IS DIGITAL ELECTRONICS](#WHAT-IS-DIGITAL-ELECTRONICS)
+- [APPLICATIONS OF DIGITAL ELECTRONICS](#APPLICATIONS-OF-DIGITAL-ELECTRONICS)
+- [DIGITAL VS ANALOG SIGNALS](#DIGITAL-VS-ANALOG-SIGNALS)
 - [LOGIC LEVELS](#LOGIC-LEVELS)
 - [NUMBER SYSTEM](#NUMBER-SYSTEM)
-- [Conversion between number system](#Conversion-between-number-system)
+- [CONVERSION BETWEEN NUMBER SYSTEM](#CONVERSION-BETWEEN-NUMBER-SYSTEM)
 - [BASIC LOGIC GATES](#BASIC-LOGIC-GATES)
-- [Integrated Circuits](#Integrated-Circuits)
+- [INTEGRATED CIRCUITS](#INTEGRATED-CIRCUITS)
 - [IMPLEMENTATION OF GATES](#IMPLEMENTATION-OF-GATES)
 - [IMPLEMENTATAION OF HALF ADDER](#IMPLEMENTATAION-OF-HALF-ADDER)
 - [IMPLEMENTATION OF FULL ADDER](#IMPLEMENTATION-OF-FULL-ADDER)
 - [IMPLEMENTATION OF 2X1 MULTIPLEXER](#IMPLEMENTATION-OF-2X1-MULTIPLEXER)
-- [ 4X1 MULTIPLEXER](#4X1-MULTIPLEXER)
+- [IMPLEMENTATION OF 4X1 MULTIPLEXER](#IMPLEMENTATION-OF-4X1-MULTIPLEXER)
 
 
 
 
 
-# What is digital electronics
+# WHAT IS DIGITAL ELECTRONICS
 
 DEFINATION:
 Definition	Digital electronics is a branch of electronics that deals with digital signals — signals that have only two discrete levels: HIGH (1) and LOW (0). It is the foundation of computers, digital communication, and modern electronic devices.
 
-# Applications of Digital Electronics
-
+# APPLICATIONS OF DIGITAL ELECTRONICS
 Applications	Used in:
 • Computers, Laptops
 • Digital Watches
@@ -35,7 +34,7 @@ Applications	Used in:
 • Digital Control Systems
 Applications	Found in almost all modern electronics: computers, smartphones, digital cameras, smart TVs, automotive systems, robotics, automation, and more.
 
-# Digital vs Analog signals
+# DIGITAL VS ANALOG SIGNALS
 
 | **Feature**                | **Digital Electronics**                                                  | **Analog Electronics**                                                          |
 | -------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
@@ -125,7 +124,7 @@ CMOS systems have higher noise immunity and can operate at lower voltages (e.g.,
 | **Decimal**    | 10   | 0–9                 | 245     | Standard human-readable number system       |
 | **Hexadecimal**| 16   | 0–9, A–F            | 3F      | Common in memory addresses and color codes  |
 
-# Conversion between number system
+# CONVERSION BETWEEN NUMBER SYSTEM
 
 # 1.Binary → Decimal
 Binary: 1011₂
@@ -563,7 +562,7 @@ Output = A ⊙ B** (also written as \(\overline{A \oplus B}\))
 ------
 
 
-# Integrated Circuits
+# INTEGRATED CIRCUITS
 
 An IC (Integrated Circuit) is a compact, miniaturized electronic circuit built into a small chip of semiconductor material, usually silicon. It can contain millions of transistors, resistors, capacitors, and other components — all embedded together to perform specific functions.
 
@@ -1297,7 +1296,7 @@ The outputs of both AND gates go into an OR gate, so only the selected input rea
 
 --------------
 
-# 4X1 MULTIPLEXER
+# IMPLEMENTATION OF 4X1 MULTIPLEXER
 
 # Definition
 
@@ -1346,13 +1345,13 @@ You can implement a 4x1 multiplexer using:
 | 1  | 0  | I₂        |
 | 1  | 1  | I₃        |
 
+# CIRCUIT DAIGRAM:
 
-![image](https://github.com/user-attachments/assets/139cfa38-287c-4a38-b646-0cc2ddc2f5fc)
+![image](https://github.com/user-attachments/assets/4f91c5bd-0e60-4e13-8957-0c4472cd5945)
 
+# TINKERCARD LINK:
 
-
-
-👉 [Click here to open Tinkercad 4x1 MUX Simulation](https://www.tinkercad.com/things/9PzQImbqAtm-4x1-mux?sharecode=ci4PXRK-9eVPae66JNITZf6OGIbd84I6TfEUArPXFSg)
+[Click here to view the circuit on Tinkercad](https://www.tinkercad.com/things/bYPUmelVHe7-4x1-multiplexer?sharecode=rmu7yLv2ocBYOf5FKWxUkhVCvieOy94bcoWxXNHbhO4)
 
 
 
