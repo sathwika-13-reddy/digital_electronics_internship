@@ -595,17 +595,21 @@ An IC (Integrated Circuit) is a compact, miniaturized electronic circuit built i
 
  **Note**: Pin configuration varies slightly between ICs, but **Pin 7 (GND)** and **Pin 14 (Vcc)** are almost always the same in standard 14-pin DIP logic ICs.
 
----
 
 
 # 1.IC 7408 – Quad 2-Input AND Gate
 
+- AND IC
+
 
 ![image](https://github.com/user-attachments/assets/ed0ed833-5f75-4234-8cda-cc4699b29a34)
+
+- CIRCUIT
 
 
 ![image](https://github.com/user-attachments/assets/da9170d8-2fc2-467c-9ca0-b9a9da11b05d)
 
+- TINKERCARD LINK
 
 
 🔗 [Open AND Gate on Tinkercad](https://www.tinkercad.com/things/fOfobxMCEBW-and-gate?sharecode=j_8n2KSpD3f5LKcmzVvaJSIw6A7fhyE-jNRnOHJxFiU)
