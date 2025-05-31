@@ -599,17 +599,17 @@ An IC (Integrated Circuit) is a compact, miniaturized electronic circuit built i
 
 # 1.IC 7408 – Quad 2-Input AND Gate
 
-- AND IC
+# AND IC:
 
 
 ![image](https://github.com/user-attachments/assets/ed0ed833-5f75-4234-8cda-cc4699b29a34)
 
-- CIRCUIT
+# CIRCUIT:
 
 
 ![image](https://github.com/user-attachments/assets/da9170d8-2fc2-467c-9ca0-b9a9da11b05d)
 
-- TINKERCARD LINK
+- TINKERCARD LINK:
 
 
 🔗 [Open AND Gate on Tinkercad](https://www.tinkercad.com/things/fOfobxMCEBW-and-gate?sharecode=j_8n2KSpD3f5LKcmzVvaJSIw6A7fhyE-jNRnOHJxFiU)
@@ -664,12 +664,19 @@ The IC 7408 has **4 independent AND gates**, each with **2 inputs** and **1 outp
 # 2.IC 7432 – Quad 2-Input OR Gate
 
 
+# OR IC:
+
 
 ![image](https://github.com/user-attachments/assets/7ef3fdec-fbe4-4d61-ad2e-118e1b3dde40)
 
 
+# CIRCUIT:
+
+
 ![image](https://github.com/user-attachments/assets/10ac8c08-0811-42b0-a41d-490cc82e747c)
 
+
+- TINKERCARD LINK:
 
 
 🔗 [Open OR Gate on Tinkercad](https://www.tinkercad.com/things/lKZPyXAEMNc-or-gate?sharecode=jXxd-SpDmHHTyQdyUw5pfSnHZphy83RyIUHRacghbL4)
@@ -737,14 +744,19 @@ The IC **7432** consists of **four independent 2-input OR gates** in a 14-pin Du
  
 --------------
 
-# 3.IC 7404 – Hex Inverter (NOT Gate)
+# 3.IC 7404 – Hex Inverter (NOT Gate) 
+
+# NOT IC:
 
 ![image](https://github.com/user-attachments/assets/e84ef774-e2cc-4efa-a19a-45cfacb87de5)
+
+# CIRCUIT:
 
 
 ![image](https://github.com/user-attachments/assets/22034bbc-c72a-4fa7-946b-444948094d4c)
 
 
+- TINKERCARD LINK:
 
 🔗 [Open NOT Gate on Tinkercad](https://www.tinkercad.com/things/kjzNcYUMK6G-not-gate?sharecode=Vb2GaxG-duD78K0ltgJJCpkjuwf-6Ok3Lm5GJyQdh3M)
 
@@ -808,12 +820,16 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 
 # 4.IC 7400 – Quad 2-Input NAND Gate
 
+# NAND IC:
+
 ![image](https://github.com/user-attachments/assets/647c6d40-c4ea-4672-99ba-66ef014f2e96)
 
+# CIRCUIT:
 
 ![image](https://github.com/user-attachments/assets/c89e046a-52be-4e93-ae92-cac6461062ad)
 
 
+- TINKERCARD LINK:
 
 
 🔗 [Open NAND Gate on Tinkercad](https://www.tinkercad.com/things/2XV8GgJ122T-nand-gate?sharecode=o5mKUq-mFiG7vqqcQ8XPHlrK9F9bOICSzB8Q4UYYgjA)
@@ -867,13 +883,17 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 
 # 5.IC 7402 – Quad 2-Input NOR Gate
 
+# NOR IC:
+
 
 ![image](https://github.com/user-attachments/assets/dc9d0145-3454-4e7e-8aaf-b86ddae5c897)
+
+# CIRCUIT:
 
 
 ![image](https://github.com/user-attachments/assets/929632b7-d039-436e-841f-94e8d3956b02)
 
-
+- TINKERCARD LINK:
 
 🔗 [Open NOR Gate on Tinkercad](https://www.tinkercad.com/things/kUF9XcC3WpI-nor-gate?sharecode=Z_KnyAls3l5EHdBE3Pxy_3yfP6z07jgeFZfannSjekw)
 
@@ -930,11 +950,16 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 
 # 6.IC 7486 – Quad 2-Input XOR Gate
 
+# XOR IC:
+
 ![image](https://github.com/user-attachments/assets/e41ad834-44a2-404f-ab73-9b47b577d948)
 
+# CIRCUIT:
 
 ![image](https://github.com/user-attachments/assets/e9cff2dc-8b95-4d0f-99ad-c39f58d462f3)
 
+
+- TINKERCARD LINK:
 
 🔗 [Open XOR Gate on Tinkercad](https://www.tinkercad.com/things/fEuDCj6Gk6n-xor-gate?sharecode=JM9vHWwbif3Lj7GUjIkPhpUnfeIfCduufKzjAw9Ub5M)
 
@@ -986,11 +1011,16 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 
 # 7.IC 74266 – Quad 2-Input XNOR Gate
 
+# XNOR IC:
+
 ![image](https://github.com/user-attachments/assets/215b2a6c-f8fa-491d-9f5b-91f3a5258f59)
 
 
+# CIRCUIT:
+
 ![image](https://github.com/user-attachments/assets/1c150e22-4891-4d7a-918a-df9af5b03d31)
 
+- TINKERCARD LINK:
 
 🔗 [Open XNOR Gate on Tinkercad](https://www.tinkercad.com/things/fq6O6knnfkm-xnor-gate?sharecode=iquvjY0KZAv2Xnp_AIUeW8Bal-Pdzds6_HhS5X_aW7I)
 
@@ -1042,6 +1072,7 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 
 ![image](https://github.com/user-attachments/assets/a802f3e2-c5e4-4c12-9ff2-a3cfa0da22d8)
 
+- TINKERCARD LINK:
 
 🔗 [Open NOT Gate (using NAND gate) on Tinkercad](https://www.tinkercad.com/things/5w8bod8q7ur-not-using-nand?sharecode=D-DyCMSv-YGMq35g7hoicR_AEPAQf8I7sO8UzXPx-JM)
 
@@ -1052,6 +1083,7 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 
 ![image](https://github.com/user-attachments/assets/8f4f86c8-a94c-439b-9fb5-9d7746b8d7b5)
 
+- TINKERCARD LINK:
 
 🔗 [Open NOT Gate (using NAND gate) on Tinkercad](https://www.tinkercad.com/things/5w8bod8q7ur-not-using-nand?sharecode=D-DyCMSv-YGMq35g7hoicR_AEPAQf8I7sO8UzXPx-JM)
 
@@ -1063,6 +1095,7 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 
 ![image](https://github.com/user-attachments/assets/4a1e84af-57e6-470c-b6f2-d69b08dba5ed)
 
+- TINKERCARD LINK:
 
 🔗 [Open AND Gate (using NOR gates) on Tinkercad](https://www.tinkercad.com/things/kraNCAj0oeY-and-gate-using-nor?sharecode=K05LbFGCjSuXIB2nc3DUGTdqU6wGF_pnOMgy6-TrdCU)
 
@@ -1072,6 +1105,8 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 
 ![image](https://github.com/user-attachments/assets/aeb90e9c-c0d1-4a98-9c4c-5d3c5927e6c0)
 
+- TINKERCARD LINK:
+
 🔗 [Open AND Gate (using NAND gates) on Tinkercad](https://www.tinkercad.com/things/jblMKUMEH3Z-and-using-nand?sharecode=fz_ZTUGbdwoSjJ146oipzZ_LefaPlFxyRZ3M0XJHxdg)
 
 
@@ -1079,12 +1114,17 @@ The **IC 7404** contains **six independent NOT gates (inverters)**. Each inverte
 
 ![image](https://github.com/user-attachments/assets/f3e48ecb-946a-4a31-ba0f-9e76db056de0)
 
+- TINKERCARD LINK:
+
 🔗 [Open OR Gate (using NOR gates) on Tinkercad](https://www.tinkercad.com/things/ffe7yMd2Aw0-or-using-nor-gate?sharecode=NSY0rSpOb4RoGHuoJT7nnqgRu4DArxJWNijnrNV1Kcw)
 
 
 # 6.NOT OPERATION USING NOR GATE 7402
 
 ![image](https://github.com/user-attachments/assets/14cc26b6-ffd4-4e03-a616-d4e10716ed36)
+
+
+- TINKERCARD LINK:
 
 
 🔗 [Open NOT Gate (using NOR gate) on Tinkercad](https://www.tinkercad.com/things/iybnVqVjyDm-not-using-nor-gate?sharecode=P9JA-w9YDAR5kGd5mgF3HLFWbfoJr1Rt089Tm0iB9eE)
@@ -1145,21 +1185,21 @@ This configuration uses:
 
 # FULL ADDER
 
-# Pin Daigram
+# PIN DAIGRAM
 
 ![image](https://github.com/user-attachments/assets/7e61f4ee-77ec-485c-b0b3-2b37458271cf)
 
 
-# Truth Table
+# TRUTH TABLE
 
 
 ![image](https://github.com/user-attachments/assets/46e54667-623e-4d4e-8d4d-bb102d049982)
 
-
+# CIRCUIT:
 
 ![image](https://github.com/user-attachments/assets/9a0fa9fa-8536-4037-a9fa-b79ee9a6040d)
 
-
+- TINKERCARD LINK:
 
 🔗 [Open Full Adder on Tinkercad](https://www.tinkercad.com/things/g4lCLiKjXc9-full-adder?sharecode=TuKP4uzOq6iB7cw8YDw9qI4viTGbj3Jr4UGfm4jWwVo)
 
@@ -1207,19 +1247,19 @@ Only 2 gates from XOR and AND ICs are used. Remaining gates can be left unconnec
 # IMPLEMENTATION OF 2X1 MULTIPLEXER
 
 # Introduction
+
 - A 2X1 Multiplexer (MUX) selects one of two inputs and forwards it to a single output.
-- Control is based on a single **select line (S)**.
+ 
+- Control is based on a single **select line (S)**
+  
 - This design uses basic gates from standard TTL ICs.
 
 
 # How a 2X1 MUX Works – Step-by-Step
+
 # It has 3 inputs:
 
-A – Input 1
-
-B – Input 2
-
-S – Select line
+A – Input 1,B – Input 2,S – Select line
 
 It has 1 output:
 
@@ -1255,22 +1295,21 @@ The outputs of both AND gates go into an OR gate, so only the selected input rea
 # Logic Expression
 - Output Y = (A AND NOT(S)) OR (B AND S)
 
-# PIN DAIGRAM  
+# PIN DAIGRAM : 
 
 ![image](https://github.com/user-attachments/assets/6ed3bb2b-09f4-4c92-a2f5-c7da4c8d8bda)
 
-# Truth Table
+# TRUTH TABLE:
 
 ![image](https://github.com/user-attachments/assets/baf3ee25-ba8b-45a8-b8da-be753e6ad8f5)
 
-
+# CIRCUIT:
 
 ![image](https://github.com/user-attachments/assets/797841bd-1cd3-411e-8d88-7e1973bbe833) 
 
-
+- TINKERCARD LINK:
 
 🔗 [Open 2:1 Multiplexer on Tinkercad](https://www.tinkercad.com/things/gmGdlk6Ekrb-21-multiplexer?sharecode=IOVGOv5c3v5PD7PAsjuvPpBAoavy_5nOXjH36SehCMo)
-
 
 
 
@@ -1302,14 +1341,14 @@ The outputs of both AND gates go into an OR gate, so only the selected input rea
 
 # IMPLEMENTATION OF 4X1 MULTIPLEXER
 
-# Definition
+# Definition:
 
 A **4x1 Multiplexer (MUX)** is a combinational logic circuit that selects one of **four input data lines (I₀, I₁, I₂, I₃)** and transmits the selected input to a single output line (**Y**) based on the values of **two selection inputs (S₁ and S₀)**.
 
 It functions like a digitally controlled switch, allowing one input line to be passed through based on the control signal
 
 
-# Summary of IC Usage
+# Summary of IC Usage:
 
 - IC 7411: For 3-input AND gates (one per minterm)
 
@@ -1326,7 +1365,7 @@ It functions like a digitally controlled switch, allowing one input line to be p
 
 
 
-# CIRCUIT DAIGRAM
+# PIN DAIGRAM:
 
 ![image](https://github.com/user-attachments/assets/2d5bbca6-0900-4f0a-acbc-72970fe3950e)
 
@@ -1340,7 +1379,7 @@ You can implement a 4x1 multiplexer using:
 
 
 
-# Truth Table
+# TRUTH TABLE:
 
 | S₁ | S₀ | Output Y |
 |----|----|-----------|
@@ -1349,11 +1388,11 @@ You can implement a 4x1 multiplexer using:
 | 1  | 0  | I₂        |
 | 1  | 1  | I₃        |
 
-# CIRCUIT DAIGRAM:
+# CIRCUIT:
 
 ![image](https://github.com/user-attachments/assets/4f91c5bd-0e60-4e13-8957-0c4472cd5945)
 
-# TINKERCARD LINK:
+- TINKERCARD LINK:
 
 [Click here to view the circuit on Tinkercad](https://www.tinkercad.com/things/bYPUmelVHe7-4x1-multiplexer?sharecode=rmu7yLv2ocBYOf5FKWxUkhVCvieOy94bcoWxXNHbhO4)
 
